@@ -32,6 +32,9 @@ dependencies:
   next:
     specifier: ^15.0.1
     version: 15.1.6(react-dom@18.3.1)(react@18.3.1)
+  p5:
+    specifier: ^1.11.3
+    version: 1.11.3
   react:
     specifier: ^18.3.1
     version: 18.3.1
@@ -2541,6 +2544,10 @@ packages:
     dependencies:
       p-limit: 3.1.0
     dev: true
+
+  /p5@1.11.3:
+    resolution: {integrity: sha512-5eiyuZ3Pvo6ucr3nr8AzD+qwpoleiIEF2a2HmiO6PJM1tnbD0LmLlckZyYGJATs0tdmRjc37Muh6KPS4d1FHHg==}
+    dev: false
 
   /package-json-from-dist@1.0.1:
     resolution: {integrity: sha512-UEZIS3/by4OC8vL3P2dTXRETpebLI2NiI5vIrjaD/5UtrkFX/tNbwjTSRAGC/+7CAo2pIcBaRgWmcBBHcsaCIw==}
