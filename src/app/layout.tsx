@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     "Sand Physics",
     "Browser Game",
   ],
+  verification: {
+    google: "1f-luF6aIQTixAwaiwFrNX-kJvPG-gI43ubIISoYGKc",
+  },
   openGraph: {
     title: "Sand Tetris - A New Take on Classic Tetris",
     description:
