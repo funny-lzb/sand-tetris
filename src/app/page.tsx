@@ -20,7 +20,7 @@ export default function Home() {
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:gap-8">
             <Link
               className="flex max-w-md flex-col gap-4 rounded-xl bg-amber-50/80 p-6 shadow-lg transition-all hover:bg-amber-50 hover:shadow-xl dark:bg-amber-800/80 dark:hover:bg-amber-800"
-              href="/blog/sand-tetris-guide"
+              href="/blog/how-to-play-sand-tetris"
             >
               <h3 className="text-2xl font-bold text-amber-900 dark:text-amber-100">
                 Game Guide →
