@@ -6,23 +6,16 @@ import { type Metadata } from "next";
 import { TRPCReactProvider } from "~/trpc/react";
 
 export const metadata: Metadata = {
-  title: "Sand Tetris - Where Classic Tetris Meets Sand Physics",
+  title: "Sand Tetris - Play Free Online Sand Physics Tetris Game",
   description:
-    "Experience the innovative fusion of classic Tetris gameplay with realistic sand physics simulation. A unique puzzle game that challenges your strategy and creativity.",
-  keywords: [
-    "Sand Tetris",
-    "Physics Puzzle Game",
-    "Tetris Game",
-    "Sand Physics",
-    "Browser Game",
-  ],
+    "Play Sand Tetris online for free! Experience this unique blend of classic Tetris with realistic sand physics. No download needed - play directly in your browser.",
   verification: {
     google: "1f-luF6aIQTixAwaiwFrNX-kJvPG-gI43ubIISoYGKc",
   },
   openGraph: {
-    title: "Sand Tetris - A New Take on Classic Tetris",
+    title: "Sand Tetris - Play Free Online Sand Physics Tetris Game",
     description:
-      "Experience Tetris reimagined with realistic sand physics. Play now!",
+      "Play Sand Tetris online for free! Experience this unique blend of classic Tetris with realistic sand physics. No download needed - play directly in your browser.",
     images: [
       {
         url: "/favicon.png",
