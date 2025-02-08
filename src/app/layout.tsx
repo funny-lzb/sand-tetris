@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   title: "Sand Tetris - Play Free Online Sand Physics Tetris Game",
   description:
     "Play Sand Tetris online for free! Experience this unique blend of classic Tetris with realistic sand physics. No download needed - play directly in your browser.",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
   verification: {
     google: "bg37j-N-WgMUJxr9gJBuLzFcK_Wjv_5Kj_7ah0yIAWk",
   },
