@@ -10,9 +10,9 @@ export const metadata: Metadata = {
   description:
     "Experience Sand Tetris, a unique physics-based puzzle game that reimagines classic Tetris with realistic sand mechanics. Watch blocks transform into flowing particles, creating an addictive blend of strategy and nostalgia. Play free in your browser, no download needed!",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
+    icon: "./favicon.ico",
+    shortcut: "./favicon.ico",
+    apple: "./favicon.ico",
   },
   verification: {
     google: "bg37j-N-WgMUJxr9gJBuLzFcK_Wjv_5Kj_7ah0yIAWk",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
       "Experience Sand Tetris, a unique physics-based puzzle game that reimagines classic Tetris with realistic sand mechanics. Watch blocks transform into flowing particles, creating an addictive blend of strategy and nostalgia. Play free in your browser, no download needed!",
     images: [
       {
-        url: "/favicon.ico",
+        url: "./favicon.ico",
         width: 1200,
         height: 630,
         alt: "Sand Tetris Game Preview",
