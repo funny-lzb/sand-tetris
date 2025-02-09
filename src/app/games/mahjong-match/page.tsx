@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Play Mahjong Match - Free Online Tile Matching Game | Sand Tetris",
@@ -42,7 +42,7 @@ export default function MahjongMatch() {
             <h2 className="text-2xl font-semibold mb-4">How to Play Mahjong</h2>
             <p>
               Plan your moves carefully in this mahjong game, match three mahjongs, and claim
-              victory over each level. Here's how to play:
+              victory over each level. Here&apos;s how to play:
             </p>
             <ul className="list-disc pl-6 space-y-2 mt-4">
               <li>Look for groups of three identical mahjong tiles</li>
