@@ -7,6 +7,18 @@ export default function Home() {
         <div className="container mx-auto flex max-w-4xl flex-col items-center justify-center gap-8 px-4 py-8">
           <h1 className="text-center text-4xl font-bold">Sand Tetris</h1>
 
+          <div className="mx-auto mb-8 aspect-[4/3] w-full max-w-4xl overflow-hidden rounded-lg shadow-lg">
+            <iframe
+              src="https://www.crazygames.com/embed/sandtrix"
+              style={{ width: "100%", height: "100%" }}
+              frameBorder="0"
+              allow="gamepad *;"
+              allowFullScreen
+            ></iframe>
+          </div>
+
+
+
           <h2 className="text-center text-2xl font-semibold text-gray-800">
             How to Play Sand Tetris
           </h2>
@@ -18,6 +30,18 @@ export default function Home() {
               transform into flowing sand particles, adding a new layer of
               strategy to the beloved game.
             </p>
+            <div className="mx-auto mb-8 w-full max-w-4xl overflow-hidden rounded-lg shadow-lg">
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/J59rsotSqb4?si=NBhob6ibUGnnaEwb"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </div>
 
             <div className="grid gap-8">
               <section>
@@ -62,7 +86,7 @@ export default function Home() {
 
               <section>
                 <h3 className="mb-3 text-xl font-medium">Scoring Tips</h3>
-                <ul className="space-y-2">
+                <ul className="list-disc space-y-2 pl-5">
                   <li>
                     Clear multiple rows quickly to build combos up to 10x
                     multiplier
@@ -91,36 +115,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
-
-        <div className="mx-auto mb-8 w-full max-w-4xl text-center">
-          <div className="flex items-center justify-center gap-2 text-lg font-medium text-amber-800">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M19 13l-7 7-7-7m14-8l-7 7-7-7"
-              />
-            </svg>
-            Play Sand Tetris Below
-          </div>
-        </div>
-
-        <div className="mx-auto mb-16 aspect-[4/3] w-full max-w-4xl overflow-hidden rounded-lg shadow-lg">
-          <iframe
-            src="https://www.crazygames.com/embed/sandtrix"
-            style={{ width: "100%", height: "100%" }}
-            frameBorder="0"
-            allow="gamepad *;"
-            allowFullScreen
-          ></iframe>
         </div>
       </main>
     </HydrateClient>
