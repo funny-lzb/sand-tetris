@@ -6,9 +6,9 @@ import { type Metadata } from "next";
 import { TRPCReactProvider } from "~/trpc/react";
 
 export const metadata: Metadata = {
-  title: "Sand Tetris - Play Free Online Sand Physics Tetris Game",
+  title: "Play Mahjong Match Online - Free Match-3 Puzzle Game | Sand Tetris",
   description:
-    "Experience Sand Tetris, a unique physics-based puzzle game that reimagines classic Tetris with realistic sand mechanics. Watch blocks transform into flowing particles, creating an addictive blend of strategy and nostalgia. Play free in your browser, no download needed!",
+    "Play Mahjong Match, a captivating match-3 puzzle game that combines traditional Chinese mahjong with modern gameplay. Match tiles strategically, clear levels, and challenge yourself with increasingly difficult layouts. Free to play, no download needed!",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     google: "bg37j-N-WgMUJxr9gJBuLzFcK_Wjv_5Kj_7ah0yIAWk",
   },
   openGraph: {
-    title: "Sand Tetris - Play Free Online Sand Physics Tetris Game",
+    title: "Play Mahjong Match Online - Free Match-3 Puzzle Game | Sand Tetris",
     description:
-      "Experience Sand Tetris, a unique physics-based puzzle game that reimagines classic Tetris with realistic sand mechanics. Watch blocks transform into flowing particles, creating an addictive blend of strategy and nostalgia. Play free in your browser, no download needed!",
+      "Play Mahjong Match, a captivating match-3 puzzle game that combines traditional Chinese mahjong with modern gameplay. Match tiles strategically, clear levels, and challenge yourself with increasingly difficult layouts. Free to play, no download needed!",
     images: [
       {
         url: "/favicon.ico",
