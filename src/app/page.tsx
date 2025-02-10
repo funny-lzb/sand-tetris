@@ -1,4 +1,5 @@
 import { HydrateClient } from "~/trpc/server";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -16,8 +17,6 @@ export default function Home() {
               allowFullScreen
             ></iframe>
           </div>
-
-
 
           <h2 className="text-center text-2xl font-semibold text-gray-800">
             How to Play Sand Tetris
@@ -116,6 +115,35 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Game List Section */}
+        <section className="w-full max-w-4xl mt-12 border-t pt-8 pb-10">
+          <h2 className="text-2xl font-bold text-center mb-6">Other online games</h2>
+          <div className="grid gap-4">
+            <Link href="/games/mahjong-match" className="block group">
+              <div className="bg-gradient-to-r from-amber-50 to-amber-100 p-6 rounded-lg shadow-sm group-hover:shadow-md transition-all">
+                <div className="flex items-start justify-between">
+                  <div>
+                    <h3 className="text-xl font-semibold text-blue-600 group-hover:text-blue-800">
+                      Mahjong Match
+                    </h3>
+                    <p className="mt-2 text-gray-600">
+                      Experience the classic Chinese tile-matching puzzle with a modern twist. Match tiles, 
+                      plan strategic moves, and challenge yourself with increasingly difficult levels.
+                    </p>
+                  </div>
+                  <span className="text-amber-600 text-sm font-medium px-3 py-1 bg-amber-100 rounded-full">
+                    Puzzle
+                  </span>
+                </div>
+                <div className="mt-4 flex items-center text-sm text-gray-500">
+                  <span className="mr-4">✨ Featured Game</span>
+                  <span>🎮 Free to Play</span>
+                </div>
+              </div>
+            </Link>
+          </div>
+        </section>
       </main>
     </HydrateClient>
   );

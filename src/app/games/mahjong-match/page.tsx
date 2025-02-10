@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Play Mahjong Match - Free Online Tile Matching Game | Sand Tetris",
@@ -63,6 +64,35 @@ export default function MahjongMatch() {
             </ul>
           </section>
         </div>
+
+        {/* Game List Section */}
+        <section className="w-full max-w-4xl mt-12 border-t pt-8 pb-10">
+          <h2 className="text-2xl font-bold text-center mb-6">Other online games</h2>
+          <div className="grid gap-4">
+            <Link href="/" className="block group">
+              <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-lg shadow-sm group-hover:shadow-md transition-all">
+                <div className="flex items-start justify-between">
+                  <div>
+                    <h3 className="text-xl font-semibold text-blue-600 group-hover:text-blue-800">
+                      Sand Tetris
+                    </h3>
+                    <p className="mt-2 text-gray-600">
+                      Experience a unique twist on classic Tetris with realistic sand physics. Watch blocks transform 
+                      into flowing particles, creating an innovative puzzle-solving experience.
+                    </p>
+                  </div>
+                  <span className="text-blue-600 text-sm font-medium px-3 py-1 bg-blue-100 rounded-full">
+                    Physics Puzzle
+                  </span>
+                </div>
+                <div className="mt-4 flex items-center text-sm text-gray-500">
+                  <span className="mr-4">🏆 Most Popular</span>
+                  <span>🎮 Free to Play</span>
+                </div>
+              </div>
+            </Link>
+          </div>
+        </section>
       </div>
     </main>
   );
