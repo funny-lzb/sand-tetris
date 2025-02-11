@@ -5,9 +5,9 @@ import { games } from "~/config/games";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Play Mahjong Match Online - Free Match-3 Puzzle Game | Sand Tetris",
+  title: "Sand Tetris - Play Free Online Sand Physics Tetris Game",
   description:
-    "Play Mahjong Match, a captivating match-3 puzzle game that combines traditional Chinese mahjong with modern gameplay. Match tiles strategically, clear levels, and challenge yourself with increasingly difficult layouts. Free to play, no download needed!"
+    "Play Sand Tetris online for free! Experience this unique blend of classic Tetris with realistic sand physics. No download needed - play directly in your browser."
 };
 
 export default function Home() {
