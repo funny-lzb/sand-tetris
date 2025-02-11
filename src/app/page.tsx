@@ -15,15 +15,15 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="max-w-6xl mx-auto">
             <h1 className="text-4xl font-bold text-center py-12 text-red-800 hidden md:block">
-              {currentGame?.name || "Sand Tetris"}
+              {currentGame?.name ?? "Sand Tetris"}
             </h1>
 
             {/* Mobile Game Preview */}
             <div className="relative w-full h-[60dvh] min-h-[50dvh] overflow-hidden rounded-lg bg-black md:hidden">
               <div className="h-1/2 relative overflow-hidden" style={{ filter: 'brightness(0.5)' }}>
                 <Image
-                  src={currentGame?.thumbnailUrl || "/placeholder-game.webp"}
-                  alt={currentGame?.alt || "Game Preview"}
+                  src={currentGame?.thumbnailUrl ?? "/placeholder-game.webp"}
+                  alt={currentGame?.alt ?? "Game Preview"}
                   fill
                   className="object-cover z-0 scale-[1.4]"
                 />
@@ -32,14 +32,14 @@ export default function Home() {
               <div className="h-1/2 bg-black">
                 <div className="flex flex-col items-center w-1/2 mx-auto -mt-[20%]">
                   <Image
-                    src={currentGame?.thumbnailUrl || "/placeholder-game.webp"}
+                    src={currentGame?.thumbnailUrl ?? "/placeholder-game.webp"}
                     width={300}
                     height={169}
                     className="w-full rounded-lg z-10"
-                    alt={currentGame?.alt || "Game Cover"}
+                    alt={currentGame?.alt ?? "Game Cover"}
                   />
 
-                  <h2 className="text-2xl font-bold my-4 text-white">{currentGame?.name || "Sand Tetris"}</h2>
+                  <h2 className="text-2xl font-bold my-4 text-white">{currentGame?.name ?? "Sand Tetris"}</h2>
 
                   <button className="w-full bg-gradient-to-r from-red-700 to-red-600 hover:from-red-800 hover:to-red-700 text-white font-bold py-3 px-6 rounded-3xl transition-colors">
                     <span className="flex items-center justify-center gap-2">
@@ -84,8 +84,8 @@ export default function Home() {
                   <div className="bg-white rounded-lg border border-gray-200 hover:border-gray-300 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden">
                     <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
                       <Image
-                        src={game.thumbnailUrl || "/placeholder-game.webp"}
-                        alt={game.alt || `${game.name} - Game Preview`}
+                        src={game.thumbnailUrl ?? "/placeholder-game.webp"}
+                        alt={game.alt ?? `${game.name} - Game Preview`}
                         fill
                         className="object-cover"
                       />
@@ -110,8 +110,8 @@ export default function Home() {
                   <div className="bg-white rounded-lg border border-gray-200 hover:border-gray-300 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden">
                     <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
                       <Image
-                        src={game.thumbnailUrl || "/placeholder-game.webp"}
-                        alt={game.alt || `${game.name} - Game Preview`}
+                        src={game.thumbnailUrl ?? "/placeholder-game.webp"}
+                        alt={game.alt ?? `${game.name} - Game Preview`}
                         fill
                         className="object-cover"
                       />
@@ -214,10 +214,10 @@ export default function Home() {
 
                 <div className="rounded-lg bg-amber-50 p-4">
                   <h3 className="mb-2 text-xl font-medium">
-                    Beginner&apos;s Guide
+                    Beginner’s Guide
                   </h3>
                   <p>
-                    New to Sand Tetris? Start with Easy mode where you&apos;ll
+                    New to Sand Tetris? Start with Easy mode where you’ll
                     have full game space and normal drop speed. Watch how
                     different shapes interact with the sand physics - some blocks
                     may crumble while others create stable structures. As you

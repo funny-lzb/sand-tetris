@@ -23,15 +23,15 @@ export default function SprunkiColoringBook() {
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-4xl font-bold text-center py-12 text-red-800 hidden md:block">
-            {currentGame?.name || "Sprunki Coloring Book"}
+            {currentGame?.name ?? "Sprunki Coloring Book"}
           </h1>
 
           {/* Mobile Game Preview */}
           <div className="relative w-full h-[60dvh] min-h-[50dvh] overflow-hidden rounded-lg bg-black md:hidden">
             <div className="h-1/2 relative overflow-hidden" style={{ filter: 'brightness(0.5)' }}>
               <Image
-                src={currentGame?.thumbnailUrl || "/placeholder-game.webp"}
-                alt={currentGame?.alt || "Game Preview"}
+                src={currentGame?.thumbnailUrl ?? "/placeholder-game.webp"}
+                alt={currentGame?.alt ?? "Game Preview"}
                 fill
                 className="object-cover z-0 scale-[1.4]"
               />
@@ -40,11 +40,11 @@ export default function SprunkiColoringBook() {
             <div className="h-1/2 bg-black">
               <div className="flex flex-col items-center w-1/2 mx-auto -mt-[20%]">
                 <Image
-                  src={currentGame?.thumbnailUrl || "/placeholder-game.webp"}
+                  src={currentGame?.thumbnailUrl ?? "/placeholder-game.webp"}
                   width={300}
                   height={169}
                   className="w-full rounded-lg z-10"
-                  alt={currentGame?.alt || "Game Cover"}
+                  alt={currentGame?.alt ?? "Game Cover"}
                 />
 
                 <h2 className="text-2xl font-bold my-4 text-white">{currentGame?.name}</h2>
@@ -92,8 +92,8 @@ export default function SprunkiColoringBook() {
                 <div className="bg-white rounded-lg border border-gray-200 hover:border-gray-300 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden">
                   <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
                     <Image
-                      src={game.thumbnailUrl || "/placeholder-game.webp"}
-                      alt={game.alt || `${game.name} - Game Preview`}
+                      src={game.thumbnailUrl ?? "/placeholder-game.webp"}
+                      alt={game.alt ?? `${game.name} - Game Preview`}
                       fill
                       className="object-cover"
                     />
@@ -118,8 +118,8 @@ export default function SprunkiColoringBook() {
                 <div className="bg-white rounded-lg border border-gray-200 hover:border-gray-300 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden">
                   <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
                     <Image
-                      src={game.thumbnailUrl || "/placeholder-game.webp"}
-                      alt={game.alt || `${game.name} - Game Preview`}
+                      src={game.thumbnailUrl ?? "/placeholder-game.webp"}
+                      alt={game.alt ?? `${game.name} - Game Preview`}
                       fill
                       className="object-cover"
                     />

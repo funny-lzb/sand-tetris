@@ -1,4 +1,4 @@
-import { Game, GameCategory } from '~/types/game';
+import type { Game, GameCategory } from '~/types/game';
 import { games } from '~/config/games';
 
 export const getGameById = (id: string): Game | undefined => {
@@ -21,7 +21,7 @@ export const getFeaturedGames = (): Game[] => {
   return games.filter(game => game.featured);
 };
 
-export const getRelatedGames = (currentGame: Game, limit: number = 3): Game[] => {
+export const getRelatedGames = (currentGame: Game, limit = 3): Game[] => {
   // 首先通过类别匹配
   const sameCategory = games.filter(
     game => game.id !== currentGame.id && game.category === currentGame.category

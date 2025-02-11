@@ -15,6 +15,6 @@ export interface Game {
     difficulty?: 'easy' | 'medium' | 'hard';
     estimatedTime?: string;
     multiplayer?: boolean;
-    [key: string]: any;
+    [key: string]: string | boolean | undefined;
   };
 }

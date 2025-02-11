@@ -1,20 +1,11 @@
+import { Game as GameType, GameCategory } from '~/types/game';
+
 interface GameMetadata {
   difficulty: 'easy' | 'medium' | 'hard';
   estimatedTime: string;
 }
 
-export interface Game {
-  id: string;
-  name: string;
-  path: string;
-  description: string;
-  category: string;
-  tags: string[];
-  thumbnailUrl: string;
-  alt: string;
-  metadata: GameMetadata;
-  featured?: boolean;
-}
+export type Game = GameType;
 
 export const games: Game[] = [
   {
@@ -22,7 +13,7 @@ export const games: Game[] = [
     name: 'Sand Tetris',
     path: '/',
     description: 'Classic tetris with realistic sand physics simulation',
-    category: 'puzzle',
+    category: 'puzzle' as GameCategory,
     tags: ['physics', 'tetris', 'puzzle'],
     featured: true,
     thumbnailUrl: '/images/games/sand-tetris.webp',
@@ -37,7 +28,7 @@ export const games: Game[] = [
     name: 'Chicken Run',
     path: '/games/chicken-run',
     description: 'Help the chicken cross safely through obstacles',
-    category: 'action',
+    category: 'action' as GameCategory,
     tags: ['arcade', 'action', 'casual'],
     thumbnailUrl: '/images/games/chicken-run.webp',
     alt: 'Chicken Run - Arcade game featuring a chicken avoiding obstacles',
@@ -51,7 +42,7 @@ export const games: Game[] = [
     name: 'Mahjong Match',
     path: '/games/mahjong-match',
     description: 'Classic mahjong matching puzzle game',
-    category: 'puzzle',
+    category: 'puzzle' as GameCategory,
     tags: ['matching', 'puzzle', 'traditional'],
     thumbnailUrl: '/images/games/mahjong-match.webp',
     alt: 'Mahjong Match - Traditional tile matching puzzle game',
@@ -65,7 +56,7 @@ export const games: Game[] = [
     name: 'Red Light Green Light',
     path: '/games/red-light-green-light',
     description: 'Strategic stop and go challenge game',
-    category: 'arcade',
+    category: 'arcade' as GameCategory,
     tags: ['reaction', 'timing', 'casual'],
     thumbnailUrl: '/images/games/red-light-green-light.webp',
     alt: 'Red Light Green Light - Strategic timing based arcade game',
@@ -79,7 +70,7 @@ export const games: Game[] = [
     name: 'Room Sort',
     path: '/games/room-sort',
     description: 'Organize and sort rooms with strategy',
-    category: 'strategy',
+    category: 'strategy' as GameCategory,
     tags: ['organization', 'puzzle', 'planning'],
     thumbnailUrl: '/images/games/room-sort.webp',
     alt: 'Room Sort - Strategic room organization puzzle game',
@@ -93,7 +84,7 @@ export const games: Game[] = [
     name: 'Winter Solitaire',
     path: '/games/solitaire-winter',
     description: 'Classic solitaire card game with a beautiful winter theme',
-    category: 'cards',
+    category: 'cards' as GameCategory,
     tags: ['cards', 'puzzle', 'winter'],
     thumbnailUrl: '/images/games/solitaire-winter.webp',
     alt: 'Winter Solitaire - Beautiful winter themed card game',
@@ -107,7 +98,7 @@ export const games: Game[] = [
     name: 'Sprunki Coloring',
     path: '/games/sprunki-coloring-book',
     description: 'Creative music and coloring experience',
-    category: 'creative',
+    category: 'creative' as GameCategory,
     tags: ['music', 'coloring', 'creative'],
     thumbnailUrl: '/images/games/sprunki-coloring-book.webp',
     alt: 'Sprunki Coloring - Interactive music and coloring creative game',
