@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 基础样式重置 */
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+    --radius: 0.5rem;
+  }
+}
+
+/* 自定义工具类 */
+@layer components {
+  /* 游戏容器样式 */
+  .game-container {
+    @apply relative w-full rounded-lg overflow-hidden bg-white shadow-lg;
+    aspect-ratio: 16 / 9;
+  }
+
+  .game-container iframe {
+    @apply absolute top-0 left-0 w-full h-full border-0;
+  }
+
+  /* 导航链接样式 */
+  .nav-link {
+    @apply px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200;
+    @apply text-gray-700 hover:text-gray-900 hover:bg-gray-100;
+  }
+
+  .nav-link.active {
+    @apply bg-blue-50 text-blue-700;
+  }
+
+  /* 按钮样式 */
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 rounded-md;
+    @apply font-medium transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-100 text-gray-700 hover:bg-gray-200;
+  }
+
+  /* 卡片样式 */
+  .game-card {
+    @apply bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200;
+    @apply border border-gray-200;
+  }
+
+  .game-card-content {
+    @apply p-4 space-y-2;
+  }
+
+  /* 标签样式 */
+  .game-tag {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+    @apply bg-blue-100 text-blue-800;
+  }
+
+  /* 工具提示样式 */
+  .tooltip {
+    @apply absolute z-10 px-2 py-1 text-xs text-white bg-gray-900 rounded;
+    @apply opacity-0 group-hover:opacity-100 transition-opacity duration-200;
+  }
+
+  /* 布局容器 */
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* 响应式网格 */
+  .grid-games {
+    @apply grid gap-6;
+    @apply grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
+  }
+}
+
+/* 动画 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* 文本选择样式 */
+::selection {
+  background: rgba(59, 130, 246, 0.2);
+  color: currentColor;
+}
+
+/* 焦点轮廓样式 */
+:focus-visible {
+  outline: 2px solid rgb(59, 130, 246);
+  outline-offset: 2px;
+}
+
+/* 禁用状态样式 */
+[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* 加载状态 */
+.loading {
+  @apply relative pointer-events-none opacity-60;
+}
+
+.loading::after {
+  content: "";
+  @apply absolute inset-0 bg-white/40;
+}

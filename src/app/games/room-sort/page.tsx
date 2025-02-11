@@ -4,26 +4,26 @@ import Image from "next/image";
 import { games } from "~/config/games";
 
 export const metadata: Metadata = {
-  title: "Play Mahjong Match - Free Online Tile Matching Game | Sand Tetris",
-  description: "Enjoy the classic Chinese Mahjong game with a modern twist! Match identical tiles, plan strategic moves, and challenge yourself with increasingly difficult levels. Perfect for puzzle lovers and Mahjong enthusiasts. Play for free in your browser!",
+  title: "Room Sort - Free Floor Plan Puzzle Game | Play Room Sort Game Online",
+  description: "Play Room Sort, the ultimate free puzzle game that combines tangram puzzles with home design. Rearrange room blocks, connect doors, and create perfect floor plans in this creative room sort game. Challenge yourself with unique layouts!",
   openGraph: {
-    title: "Play Mahjong Match - Free Online Tile Matching Game | Sand Tetris",
-    description: "Enjoy the classic Chinese Mahjong game with a modern twist! Match identical tiles, plan strategic moves, and challenge yourself with increasingly difficult levels. Perfect for puzzle lovers and Mahjong enthusiasts. Play for free in your browser!",
+    title: "Room Sort - Free Floor Plan Puzzle Game | Play Room Sort Game Online",
+    description: "Play Room Sort, the ultimate free puzzle game that combines tangram puzzles with home design. Rearrange room blocks, connect doors, and create perfect floor plans in this creative room sort game. Challenge yourself with unique layouts!",
   },
 };
 
-export default function MahjongMatch() {
+export default function RoomSort() {
   // Get current game
-  const currentGame = games.find(game => game.path === "/games/mahjong-match");
+  const currentGame = games.find(game => game.path === "/games/room-sort");
   // Get other games
-  const otherGames = games.filter(game => game.path !== "/games/mahjong-match");
+  const otherGames = games.filter(game => game.path !== "/games/room-sort");
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-start bg-white text-gray-900">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-4xl font-bold text-center py-12 text-red-800 hidden md:block">
-            {currentGame?.name || "Mahjong Match"}
+            {currentGame?.name || "Room Sort"}
           </h1>
 
           {/* Mobile Game Preview */}
@@ -61,7 +61,7 @@ export default function MahjongMatch() {
 
                 <div className="flex justify-center mt-4 w-[80vw]">
                   <p className="text-gray-200 text-sm text-center">
-                    Match identical tiles and clear the board in this classic puzzle game
+                    Create perfect floor plans in this creative puzzle game
                   </p>
                 </div>
               </div>
@@ -74,7 +74,7 @@ export default function MahjongMatch() {
             <div className="col-span-2 sm:col-span-2 md:col-span-3 lg:col-span-4 row-span-4 bg-white shadow-md rounded-lg hidden md:block">
               <div className="relative w-full h-full" style={{ paddingBottom: '75%' }}>
                 <iframe
-                  src="https://html5.gamedistribution.com/fe22c2e8ce44494cbde70fa8b30105d2/?gd_sdk_referrer_url=https://sand-tetris.online/games/mahjong-match"
+                  src="https://html5.gamedistribution.com/a81ef72ff8e0468b8eaed71f39bc2743/?gd_sdk_referrer_url=https://sand-tetris.online/games/room-sort"
                   className="absolute inset-0 w-full h-full rounded-lg"
                   scrolling="no"
                   frameBorder="0"
@@ -140,37 +140,43 @@ export default function MahjongMatch() {
           {/* Game Information */}
           <div className="prose prose-lg max-w-4xl mx-auto mt-12">
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4">What is Mahjong?</h2>
+              <h2 className="text-2xl font-semibold mb-4">About Room Sort</h2>
               <p>
-                Mahjong is a classic tile-matching game that originated in China. In this modern
-                match-three version, players must strategically pair identical mahjong tiles to clear
-                the board. The game combines traditional mahjong elements with engaging puzzle
-                mechanics, making it both challenging and entertaining for players of all skill levels.
+                Welcome to Room Sort, the ultimate free puzzle game that brings together the engaging
+                challenge of tangram puzzles with the creative satisfaction of home design. This innovative
+                room sort game challenges you to think strategically as you arrange room blocks to create
+                perfect floor plans.
+              </p>
+              <p className="mt-4">
+                What makes this game unique is its clever door connection system - each room must connect
+                through doors to create a cohesive layout. This adds an extra layer of puzzle-solving
+                complexity that will keep you engaged and challenged throughout your gaming experience.
               </p>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4">How to Play Mahjong</h2>
+              <h2 className="text-2xl font-semibold mb-4">How to Play Room Sort</h2>
               <p>
-                Plan your moves carefully in this mahjong game, match three mahjongs, and claim
-                victory over each level. Here&apos;s how to play:
+                Master the art of room arrangement with these simple yet challenging mechanics:
               </p>
               <ul className="list-disc pl-6 space-y-2 mt-4">
-                <li>Look for groups of three identical mahjong tiles</li>
-                <li>Click or tap matching tiles to remove them from the board</li>
-                <li>Plan your moves strategically to avoid getting stuck</li>
-                <li>Clear all tiles to complete each level</li>
-                <li>Progress through increasingly challenging layouts</li>
+                <li>Examine the target floor plan layout carefully</li>
+                <li>Swap room blocks to their correct positions</li>
+                <li>Ensure all doors properly connect between rooms</li>
+                <li>Complete the layout to progress to the next challenge</li>
+                <li>Think strategically about room placement and connections</li>
               </ul>
             </section>
 
             <section className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">Tips for Success</h3>
+              <h3 className="text-xl font-semibold mb-3">Game Features</h3>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Start with tiles that are blocking others</li>
-                <li>Look ahead and plan your moves in advance</li>
-                <li>Pay attention to the layout pattern</li>
-                <li>Use power-ups wisely when available</li>
+                <li>Engaging floor plan puzzle challenges</li>
+                <li>Unique door connection mechanics</li>
+                <li>Combination of tangram and home design elements</li>
+                <li>Progressive difficulty levels</li>
+                <li>Intuitive drag-and-swap controls</li>
+                <li>Beautiful room and interior designs</li>
               </ul>
             </section>
           </div>

@@ -4,26 +4,26 @@ import Image from "next/image";
 import { games } from "~/config/games";
 
 export const metadata: Metadata = {
-  title: "Play Mahjong Match - Free Online Tile Matching Game | Sand Tetris",
-  description: "Enjoy the classic Chinese Mahjong game with a modern twist! Match identical tiles, plan strategic moves, and challenge yourself with increasingly difficult levels. Perfect for puzzle lovers and Mahjong enthusiasts. Play for free in your browser!",
+  title: "How to Play Red Light Green Light Game | Traffic Light Rules Explained",
+  description: "Learn how to play Red Light Green Light game with our comprehensive guide! Understand traffic light signals, green arrow rules, and master the classic playground game. Perfect for beginners and advanced players!",
   openGraph: {
-    title: "Play Mahjong Match - Free Online Tile Matching Game | Sand Tetris",
-    description: "Enjoy the classic Chinese Mahjong game with a modern twist! Match identical tiles, plan strategic moves, and challenge yourself with increasingly difficult levels. Perfect for puzzle lovers and Mahjong enthusiasts. Play for free in your browser!",
+    title: "How to Play Red Light Green Light Game | Traffic Light Rules Explained",
+    description: "Learn how to play Red Light Green Light game with our comprehensive guide! Understand traffic light signals, green arrow rules, and master the classic playground game. Perfect for beginners and advanced players!",
   },
 };
 
-export default function MahjongMatch() {
+export default function RedLightGreenLight() {
   // Get current game
-  const currentGame = games.find(game => game.path === "/games/mahjong-match");
+  const currentGame = games.find(game => game.path === "/games/red-light-green-light");
   // Get other games
-  const otherGames = games.filter(game => game.path !== "/games/mahjong-match");
+  const otherGames = games.filter(game => game.path !== "/games/red-light-green-light");
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-start bg-white text-gray-900">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-4xl font-bold text-center py-12 text-red-800 hidden md:block">
-            {currentGame?.name || "Mahjong Match"}
+            {currentGame?.name || "Red Light Green Light"}
           </h1>
 
           {/* Mobile Game Preview */}
@@ -61,7 +61,7 @@ export default function MahjongMatch() {
 
                 <div className="flex justify-center mt-4 w-[80vw]">
                   <p className="text-gray-200 text-sm text-center">
-                    Match identical tiles and clear the board in this classic puzzle game
+                    Learn how to play Red Light Green Light game with our comprehensive guide!
                   </p>
                 </div>
               </div>
@@ -74,7 +74,7 @@ export default function MahjongMatch() {
             <div className="col-span-2 sm:col-span-2 md:col-span-3 lg:col-span-4 row-span-4 bg-white shadow-md rounded-lg hidden md:block">
               <div className="relative w-full h-full" style={{ paddingBottom: '75%' }}>
                 <iframe
-                  src="https://html5.gamedistribution.com/fe22c2e8ce44494cbde70fa8b30105d2/?gd_sdk_referrer_url=https://sand-tetris.online/games/mahjong-match"
+                  src="https://html5.gamedistribution.com/788f89d325d840f391139ce0e1212c46/?gd_sdk_referrer_url=https://sand-tetris.online/games/red-light-green-light"
                   className="absolute inset-0 w-full h-full rounded-lg"
                   scrolling="no"
                   frameBorder="0"
@@ -140,38 +140,68 @@ export default function MahjongMatch() {
           {/* Game Information */}
           <div className="prose prose-lg max-w-4xl mx-auto mt-12">
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4">What is Mahjong?</h2>
+              <h2 className="text-2xl font-semibold mb-4">Understanding Traffic Light Signals</h2>
               <p>
-                Mahjong is a classic tile-matching game that originated in China. In this modern
-                match-three version, players must strategically pair identical mahjong tiles to clear
-                the board. The game combines traditional mahjong elements with engaging puzzle
-                mechanics, making it both challenging and entertaining for players of all skill levels.
+                Just like in real traffic situations, understanding the signals is crucial for success in
+                Red Light Green Light. When you see a green light or arrow, it means GO - you can move
+                forward. A red light means STOP - you must freeze immediately!
               </p>
+              <div className="bg-gray-50 p-4 rounded-lg mt-4">
+                <h3 className="text-xl font-semibold mb-3">Traffic Light Guide</h3>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li><span className="text-green-600 font-bold">Green Light/Arrow:</span> Safe to move forward</li>
+                  <li><span className="text-red-600 font-bold">Red Light:</span> Stop all movement immediately</li>
+                  <li><span className="text-yellow-600 font-bold">Transition:</span> Be prepared to stop</li>
+                </ul>
+              </div>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4">How to Play Mahjong</h2>
+              <h2 className="text-2xl font-semibold mb-4">Detailed Game Instructions</h2>
               <p>
-                Plan your moves carefully in this mahjong game, match three mahjongs, and claim
-                victory over each level. Here&apos;s how to play:
+                Master these essential controls and rules to excel in Red Light Green Light:
               </p>
               <ul className="list-disc pl-6 space-y-2 mt-4">
-                <li>Look for groups of three identical mahjong tiles</li>
-                <li>Click or tap matching tiles to remove them from the board</li>
-                <li>Plan your moves strategically to avoid getting stuck</li>
-                <li>Clear all tiles to complete each level</li>
-                <li>Progress through increasingly challenging layouts</li>
+                <li>Tap & Hold Left Mouse Button (LMB) or press Spacebar to MOVE</li>
+                <li>Watch carefully for light changes - green means go, red means stop</li>
+                <li>Release all controls IMMEDIATELY when you see a red light</li>
+                <li>Any movement during a red light will result in elimination</li>
+                <li>The goal is to reach the finish line first while following all signals</li>
               </ul>
             </section>
 
-            <section className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">Tips for Success</h3>
+            <section className="bg-blue-50 p-6 rounded-lg mb-8">
+              <h3 className="text-xl font-semibold mb-3">Pro Tips for Success</h3>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Start with tiles that are blocking others</li>
-                <li>Look ahead and plan your moves in advance</li>
-                <li>Pay attention to the layout pattern</li>
-                <li>Use power-ups wisely when available</li>
+                <li>Keep your finger ready on the movement control</li>
+                <li>Watch for the subtle transition between lights</li>
+                <li>Position yourself strategically during green light phases</li>
+                <li>Practice quick reaction times to light changes</li>
+                <li>Learn to anticipate the rhythm of light changes</li>
               </ul>
+            </section>
+
+            <section className="mt-8">
+              <h2 className="text-2xl font-semibold mb-4">Common Questions</h2>
+              <div className="space-y-4">
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">What does a green arrow with a red light mean?</h3>
+                  <p>
+                    In our game, when you see a green arrow during a red light phase, it indicates a special
+                    opportunity to move in the direction of the arrow only. This adds an extra strategic
+                    element to the traditional gameplay!
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">How do you win at Red Light Green Light?</h3>
+                  <p>
+                    Success requires a combination of quick reflexes, careful observation, and strategic
+                    movement. Focus on making the most of each green light phase while ensuring complete
+                    stillness during red lights. Remember - slow and steady movement during green lights
+                    is often better than risky sprints!
+                  </p>
+                </div>
+              </div>
             </section>
           </div>
         </div>

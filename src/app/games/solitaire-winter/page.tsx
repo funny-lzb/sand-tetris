@@ -4,26 +4,26 @@ import Image from "next/image";
 import { games } from "~/config/games";
 
 export const metadata: Metadata = {
-  title: "Play Mahjong Match - Free Online Tile Matching Game | Sand Tetris",
-  description: "Enjoy the classic Chinese Mahjong game with a modern twist! Match identical tiles, plan strategic moves, and challenge yourself with increasingly difficult levels. Perfect for puzzle lovers and Mahjong enthusiasts. Play for free in your browser!",
+  title: "Winter Solitaire Card Game - Play Free Online Solitaire Winter | Sand Tetris",
+  description: "Play Winter Solitaire, the classic card game with a beautiful winter theme. Enjoy this free online winter solitaire card game with stunning snowy visuals and relaxing gameplay. Perfect for solitaire lovers!",
   openGraph: {
-    title: "Play Mahjong Match - Free Online Tile Matching Game | Sand Tetris",
-    description: "Enjoy the classic Chinese Mahjong game with a modern twist! Match identical tiles, plan strategic moves, and challenge yourself with increasingly difficult levels. Perfect for puzzle lovers and Mahjong enthusiasts. Play for free in your browser!",
+    title: "Winter Solitaire Card Game - Play Free Online Solitaire Winter | Sand Tetris",
+    description: "Play Winter Solitaire, the classic card game with a beautiful winter theme. Enjoy this free online winter solitaire card game with stunning snowy visuals and relaxing gameplay. Perfect for solitaire lovers!",
   },
 };
 
-export default function MahjongMatch() {
+export default function SolitaireWinter() {
   // Get current game
-  const currentGame = games.find(game => game.path === "/games/mahjong-match");
+  const currentGame = games.find(game => game.path === "/games/solitaire-winter");
   // Get other games
-  const otherGames = games.filter(game => game.path !== "/games/mahjong-match");
+  const otherGames = games.filter(game => game.path !== "/games/solitaire-winter");
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-start bg-white text-gray-900">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-4xl font-bold text-center py-12 text-red-800 hidden md:block">
-            {currentGame?.name || "Mahjong Match"}
+            {currentGame?.name || "Winter Solitaire"}
           </h1>
 
           {/* Mobile Game Preview */}
@@ -61,7 +61,7 @@ export default function MahjongMatch() {
 
                 <div className="flex justify-center mt-4 w-[80vw]">
                   <p className="text-gray-200 text-sm text-center">
-                    Match identical tiles and clear the board in this classic puzzle game
+                    Play this beautiful winter-themed solitaire card game
                   </p>
                 </div>
               </div>
@@ -72,9 +72,9 @@ export default function MahjongMatch() {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {/* Main Game Container */}
             <div className="col-span-2 sm:col-span-2 md:col-span-3 lg:col-span-4 row-span-4 bg-white shadow-md rounded-lg hidden md:block">
-              <div className="relative w-full h-full" style={{ paddingBottom: '75%' }}>
+              <div className="relative w-full h-full" style={{ paddingBottom: '56.25%' }}>
                 <iframe
-                  src="https://html5.gamedistribution.com/fe22c2e8ce44494cbde70fa8b30105d2/?gd_sdk_referrer_url=https://sand-tetris.online/games/mahjong-match"
+                  src="https://html5.gamedistribution.com/41a48516ae924ef884a8b325231ee6a0/?gd_sdk_referrer_url=https://sand-tetris.online/games/solitaire-winter"
                   className="absolute inset-0 w-full h-full rounded-lg"
                   scrolling="no"
                   frameBorder="0"
@@ -140,37 +140,44 @@ export default function MahjongMatch() {
           {/* Game Information */}
           <div className="prose prose-lg max-w-4xl mx-auto mt-12">
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4">What is Mahjong?</h2>
+              <h2 className="text-2xl font-semibold mb-4">Journey Through Winter Solitaire</h2>
               <p>
-                Mahjong is a classic tile-matching game that originated in China. In this modern
-                match-three version, players must strategically pair identical mahjong tiles to clear
-                the board. The game combines traditional mahjong elements with engaging puzzle
-                mechanics, making it both challenging and entertaining for players of all skill levels.
+                Embark on an enchanting winter solitaire card game adventure! As the snow falls outside,
+                immerse yourself in this beautifully crafted winter-themed solitaire experience. Travel
+                across 5 stunning winter locations, each waiting to be rebuilt through 200 challenging levels
+                of classic card-matching gameplay.
+              </p>
+              <p className="mt-4">
+                This isn't just any solitaire winter game - unlock 18 exciting variants including
+                Klondike, Spider, and Freecell. Face unique challenges like frozen cards, chains, locks,
+                and climbing vines while collecting precious gems and coins to upgrade your journey through
+                this winter wonderland.
               </p>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4">How to Play Mahjong</h2>
+              <h2 className="text-2xl font-semibold mb-4">How to Play Winter Solitaire</h2>
               <p>
-                Plan your moves carefully in this mahjong game, match three mahjongs, and claim
-                victory over each level. Here&apos;s how to play:
+                Master the art of this winter solitaire card game with these simple yet strategic rules:
               </p>
               <ul className="list-disc pl-6 space-y-2 mt-4">
-                <li>Look for groups of three identical mahjong tiles</li>
-                <li>Click or tap matching tiles to remove them from the board</li>
-                <li>Plan your moves strategically to avoid getting stuck</li>
-                <li>Clear all tiles to complete each level</li>
-                <li>Progress through increasingly challenging layouts</li>
+                <li>Remove all cards from the tableau to complete each level</li>
+                <li>Play any face-up card that is one higher or lower than the stock card</li>
+                <li>Overcome winter-themed obstacles to progress</li>
+                <li>Collect gems and coins for special upgrades</li>
+                <li>Aim for 3 stars in every level for maximum rewards</li>
               </ul>
             </section>
 
             <section className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">Tips for Success</h3>
+              <h3 className="text-xl font-semibold mb-3">Game Features</h3>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Start with tiles that are blocking others</li>
-                <li>Look ahead and plan your moves in advance</li>
-                <li>Pay attention to the layout pattern</li>
-                <li>Use power-ups wisely when available</li>
+                <li>200 challenging levels across 5 beautiful winter locations</li>
+                <li>18 bonus game variants including Klondike, Spider, and Freecell</li>
+                <li>Multiple card deck designs to choose from</li>
+                <li>Special obstacles: frozen cards, chains, locks, and vines</li>
+                <li>In-game shop with upgrades and power-ups</li>
+                <li>Stunning winter visuals and relaxing gameplay</li>
               </ul>
             </section>
           </div>

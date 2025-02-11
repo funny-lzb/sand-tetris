@@ -4,26 +4,26 @@ import Image from "next/image";
 import { games } from "~/config/games";
 
 export const metadata: Metadata = {
-  title: "Play Mahjong Match - Free Online Tile Matching Game | Sand Tetris",
-  description: "Enjoy the classic Chinese Mahjong game with a modern twist! Match identical tiles, plan strategic moves, and challenge yourself with increasingly difficult levels. Perfect for puzzle lovers and Mahjong enthusiasts. Play for free in your browser!",
+  title: "How to Build a Chicken Run | Free Online Chicken Game Guide",
+  description: "Learn how to build a chicken run, discover tips for managing multiple roosters, and enjoy our free chicken running game! Get expert advice on chicken runs and play our exciting endless runner game.",
   openGraph: {
-    title: "Play Mahjong Match - Free Online Tile Matching Game | Sand Tetris",
-    description: "Enjoy the classic Chinese Mahjong game with a modern twist! Match identical tiles, plan strategic moves, and challenge yourself with increasingly difficult levels. Perfect for puzzle lovers and Mahjong enthusiasts. Play for free in your browser!",
+    title: "How to Build a Chicken Run | Free Online Chicken Game Guide",
+    description: "Learn how to build a chicken run, discover tips for managing multiple roosters, and enjoy our free chicken running game! Get expert advice on chicken runs and play our exciting endless runner game.",
   },
 };
 
-export default function MahjongMatch() {
+export default function ChickenRun() {
   // Get current game
-  const currentGame = games.find(game => game.path === "/games/mahjong-match");
+  const currentGame = games.find(game => game.path === "/games/chicken-run");
   // Get other games
-  const otherGames = games.filter(game => game.path !== "/games/mahjong-match");
+  const otherGames = games.filter(game => game.path !== "/games/chicken-run");
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-start bg-white text-gray-900">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-4xl font-bold text-center py-12 text-red-800 hidden md:block">
-            {currentGame?.name || "Mahjong Match"}
+            {currentGame?.name || "Chicken Run Guide & Game"}
           </h1>
 
           {/* Mobile Game Preview */}
@@ -61,7 +61,7 @@ export default function MahjongMatch() {
 
                 <div className="flex justify-center mt-4 w-[80vw]">
                   <p className="text-gray-200 text-sm text-center">
-                    Match identical tiles and clear the board in this classic puzzle game
+                    Guide your chicken through obstacles and collect coins in this exciting runner game
                   </p>
                 </div>
               </div>
@@ -74,7 +74,7 @@ export default function MahjongMatch() {
             <div className="col-span-2 sm:col-span-2 md:col-span-3 lg:col-span-4 row-span-4 bg-white shadow-md rounded-lg hidden md:block">
               <div className="relative w-full h-full" style={{ paddingBottom: '75%' }}>
                 <iframe
-                  src="https://html5.gamedistribution.com/fe22c2e8ce44494cbde70fa8b30105d2/?gd_sdk_referrer_url=https://sand-tetris.online/games/mahjong-match"
+                  src="https://html5.gamedistribution.com/54866edc07d34e5d84d9e48cf4443923/?gd_sdk_referrer_url=https://sand-tetris.online/games/chicken-run"
                   className="absolute inset-0 w-full h-full rounded-lg"
                   scrolling="no"
                   frameBorder="0"
@@ -140,38 +140,55 @@ export default function MahjongMatch() {
           {/* Game Information */}
           <div className="prose prose-lg max-w-4xl mx-auto mt-12">
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4">What is Mahjong?</h2>
+              <h2 className="text-2xl font-semibold mb-4">How to Build a Chicken Run</h2>
               <p>
-                Mahjong is a classic tile-matching game that originated in China. In this modern
-                match-three version, players must strategically pair identical mahjong tiles to clear
-                the board. The game combines traditional mahjong elements with engaging puzzle
-                mechanics, making it both challenging and entertaining for players of all skill levels.
+                Building a proper chicken run is essential for your feathered friends&apos; health and happiness.
+                Here&apos;s a comprehensive guide to creating the perfect chicken run:
               </p>
+              <ul className="list-disc pl-6 space-y-2 mt-4">
+                <li>Choose a suitable location with good drainage and partial shade</li>
+                <li>Plan the size - allow at least 4 square feet per chicken</li>
+                <li>Use strong fencing materials to protect from predators</li>
+                <li>Install proper ventilation and weather protection</li>
+                <li>Create designated areas for food, water, and dust baths</li>
+              </ul>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4">How to Play Mahjong</h2>
+              <h2 className="text-2xl font-semibold mb-4">Managing Multiple Roosters</h2>
               <p>
-                Plan your moves carefully in this mahjong game, match three mahjongs, and claim
-                victory over each level. Here&apos;s how to play:
+                Wondering if you can have multiple roosters in your chicken run? Here&apos;s what you need to know
+                about keeping two or more roosters together:
               </p>
               <ul className="list-disc pl-6 space-y-2 mt-4">
-                <li>Look for groups of three identical mahjong tiles</li>
-                <li>Click or tap matching tiles to remove them from the board</li>
-                <li>Plan your moves strategically to avoid getting stuck</li>
-                <li>Clear all tiles to complete each level</li>
-                <li>Progress through increasingly challenging layouts</li>
+                <li>Ensure adequate space to minimize territorial disputes</li>
+                <li>Introduce roosters gradually to establish hierarchy</li>
+                <li>Provide multiple feeding and watering stations</li>
+                <li>Monitor behavior for signs of aggression</li>
+                <li>Consider the ratio of hens to roosters (recommended 8-10 hens per rooster)</li>
               </ul>
             </section>
 
             <section className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">Tips for Success</h3>
+              <h3 className="text-xl font-semibold mb-3">DIY Chicken Run Tips</h3>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Start with tiles that are blocking others</li>
-                <li>Look ahead and plan your moves in advance</li>
-                <li>Pay attention to the layout pattern</li>
-                <li>Use power-ups wisely when available</li>
+                <li>Use hardware cloth instead of chicken wire for better protection</li>
+                <li>Build raised platforms for additional space</li>
+                <li>Include enrichment items like perches and swings</li>
+                <li>Create a covered area for protection from rain</li>
+                <li>Install easy-to-clean feeding stations</li>
+                <li>Add secure latches to all doors and gates</li>
               </ul>
+            </section>
+
+            <section className="mt-8">
+              <h2 className="text-2xl font-semibold mb-4">Play Our Chicken Run Game</h2>
+              <p>
+                While learning about real chicken runs, why not enjoy our exciting chicken running game?
+                Guide your chicken through obstacles, collect coins, and activate power-ups for an
+                entertaining gaming experience. Simple tap controls make it easy to play - just tap
+                to change direction and see how far you can run!
+              </p>
             </section>
           </div>
         </div>
