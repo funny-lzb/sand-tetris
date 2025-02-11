@@ -8,8 +8,31 @@ import { TRPCReactProvider } from "~/trpc/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sand Games - Free Online Games Collection",
-  description: "Play free online games including Sand Tetris, Chicken Run, Mahjong Match, and more. Enjoy our collection of casual and puzzle games!",
+  title: "Sand Games - Play Free Online Games | Sprunki, Sand Tetris, Mahjong Match & More",
+  description:
+    "Discover and play the best free online games at Sand Games! From the physics-based Sand Tetris to classic Mahjong Match, creative Sprunki, and more. Enjoy our curated collection of puzzle, action, and casual games. No downloads required - play instantly in your browser!",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
+  verification: {
+    google: "bg37j-N-WgMUJxr9gJBuLzFcK_Wjv_5Kj_7ah0yIAWk",
+  },
+  openGraph: {
+    title: "Sand Games - Best Free Online Games Collection | Play Now",
+    description:
+      "Play the best free online games at Sand Games! Experience unique titles like Sand Tetris with realistic physics, classic Mahjong Match, creative Sprunki, and more. No downloads needed - start playing now!",
+    images: [
+      {
+        url: "/favicon.ico",
+        width: 1200,
+        height: 630,
+        alt: "Sand Games - Free Online Games Collection",
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -20,7 +43,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="overflow-x-hidden">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1206910636681979"
+          crossOrigin="anonymous"
+        ></script>
       </head>
       <body className={`${inter.className} overflow-x-hidden`}>
         <TRPCReactProvider>

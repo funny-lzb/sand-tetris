@@ -2,6 +2,13 @@ import { HydrateClient } from "~/trpc/server";
 import Link from "next/link";
 import Image from "next/image";
 import { games } from "~/config/games";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Play Mahjong Match Online - Free Match-3 Puzzle Game | Sand Tetris",
+  description:
+    "Play Mahjong Match, a captivating match-3 puzzle game that combines traditional Chinese mahjong with modern gameplay. Match tiles strategically, clear levels, and challenge yourself with increasingly difficult layouts. Free to play, no download needed!"
+};
 
 export default function Home() {
   // Get current game
