@@ -17,13 +17,14 @@ export default function Home() {
   const otherGames = games.filter(game => game.path !== "/");
 
   return (
-    <HydrateClient>
       <main className="flex min-h-screen flex-col items-center justify-start bg-white text-gray-900">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="max-w-6xl mx-auto">
             <h1 className="text-4xl font-bold text-center py-12 text-red-800 hidden md:block">
               {currentGame?.name ?? "Sand Tetris"}
             </h1>
+
+          
 
             {/* Mobile Game Preview */}
             <div className="relative w-full h-[60dvh] min-h-[50dvh] overflow-hidden rounded-lg bg-black md:hidden">
@@ -232,11 +233,21 @@ export default function Home() {
                     for faster gameplay and limited space.
                   </p>
                 </div>
+                  {/* External Game Link */}
+            <div className="text-center mb-8 hidden md:block">
+              <Link
+                href="https://football-bros.net/"
+                target="_blank"
+                className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors"
+              >
+                Want to play Ball Game ? Try -&gt;
+                
+              </Link>
+            </div>
               </div>
             </div>
           </div>
         </div>
       </main>
-    </HydrateClient>
   );
 }
