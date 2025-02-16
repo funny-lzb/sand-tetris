@@ -5,9 +5,9 @@ import { games } from "~/config/games";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sand Tetris - Play Free Online Sand Physics Tetris Game",
+  title: "Sand Tetris - Free Sandtris Unblocked",
   description:
-    "Play Sand Tetris online for free! Experience this unique blend of classic Tetris with realistic sand physics. No download needed - play directly in your browser."
+    "Play Sand Tetris online - the ultimate unblocked game with sand physics! Free mobile-friendly Sandtris with new record challenges. No download needed, play instantly."
 };
 
 export default function Home() {
@@ -233,17 +233,46 @@ export default function Home() {
                     for faster gameplay and limited space.
                   </p>
                 </div>
-                  {/* External Game Link */}
-            <div className="text-center mb-8 hidden md:block">
-              <Link
-                href="https://football-bros.net/"
-                target="_blank"
-                className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors"
-              >
-                Want to play Ball Game ? Try -&gt;
-                
-              </Link>
-            </div>
+
+                {/* SEO Content Section */}
+                <section className="mt-8 space-y-6">
+                  <h3 className="text-2xl font-semibold text-gray-800">
+                    Discover Sand Tetris: The Evolution of Classic Tetris
+                  </h3>
+                  
+                  <div className="space-y-4">
+                    <p>
+                      Sand Tetris (also known as Sandtris) brings a revolutionary twist to the classic block-stacking gameplay. This unique tetris sand game combines traditional mechanics with realistic physics, creating an entirely new puzzle experience. Play Sand Tetris online instantly - no downloads required, completely unblocked and accessible from any device.
+                    </p>
+
+                    <p>
+                      What makes this unblocked games tetris variant special is its innovative sand physics engine. Every move in Sand Tetris affects how the particles flow and settle, making each game session unique. Whether you're playing on desktop or trying Sand Tetris mobile, you'll discover new strategies as you compete to set new sand tetris records.
+                    </p>
+
+                    <div className="bg-gray-50 p-4 rounded-lg">
+                      <h4 className="font-medium mb-2">Why Players Choose Sand Tetris Unblocked</h4>
+                      <ul className="list-disc pl-5 space-y-2">
+                        <li>Instant access - play tetris sand game anywhere, anytime</li>
+                        <li>Mobile-optimized gameplay for on-the-go entertainment</li>
+                        <li>Realistic sand physics create unique challenges</li>
+                        <li>Global leaderboards to track your records</li>
+                        <li>Multiple game modes for endless entertainment</li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+
+                {/* External Game Link */}
+                <div className="text-center mb-8 hidden md:block">
+                  <Link
+                    href="https://football-bros.net/"
+                    target="_blank"
+                    className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors"
+                  >
+                    Want to play Ball Game ? Try -&gt;
+                    
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

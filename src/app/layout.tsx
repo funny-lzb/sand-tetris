@@ -8,9 +8,6 @@ import { TRPCReactProvider } from "~/trpc/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sand Games - Play Free Online Games | Sprunki, Sand Tetris, Mahjong Match & More",
-  description:
-    "Discover and play the best free online games at Sand Games! From the physics-based Sand Tetris to classic Mahjong Match, creative Sprunki, and more. Enjoy our curated collection of puzzle, action, and casual games. No downloads required - play instantly in your browser!",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
