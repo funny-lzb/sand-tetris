@@ -4,6 +4,14 @@ import "./globals.css";
 import Link from "next/link";
 import { games } from "~/config/games";
 import { TRPCReactProvider } from "~/trpc/react";
+import Script from "next/script";
+
+declare global {
+  interface Window {
+    dataLayer: unknown[];
+    gtag: (...args: unknown[]) => void;
+  }
+}
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -40,11 +48,23 @@ export default function RootLayout({
   return (
     <html lang="en" className="overflow-x-hidden">
       <head>
-        <script
-          async
+        <Script
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1206910636681979"
-          crossOrigin="anonymous"
-        ></script>
+          strategy="afterInteractive"
+        ></Script>
+       <Script
+  src="https://www.googletagmanager.com/gtag/js?id=G-KXXGFCV7G7"
+  strategy="afterInteractive"
+/>
+<Script id="google-analytics" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KXXGFCV7G7');
+  `}
+</Script>
+
       </head>
       <body className={`${inter.className} overflow-x-hidden`}>
         <TRPCReactProvider>
