@@ -56,7 +56,7 @@ export default function RootLayout({
                     Sand Games
                   </Link>
                   {/* Desktop Navigation */}
-                  <div className="hidden md:flex space-x-1">
+                  {/* <div className="hidden md:flex space-x-1">
                     {games.map((game) => (
                       <Link
                         key={game.id}
@@ -66,7 +66,7 @@ export default function RootLayout({
                         {game.name}
                       </Link>
                     ))}
-                  </div>
+                  </div> */}
                   {/* Mobile menu button */}
                   <div className="md:hidden">
                     <button
@@ -122,8 +122,16 @@ export default function RootLayout({
             </main>
             <footer className="bg-gray-50 border-t">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-                <div className="text-center text-gray-600 text-sm">
-                  &copy; {new Date().getFullYear()} Sand Games. All rights reserved.
+                <div className="flex justify-between items-center">
+                  <div className="text-gray-600 text-sm">
+                    &copy; 2025 sand-tetris.online. All rights reserved.
+                  </div>
+                  <nav className="flex space-x-6">
+                    <Link href="/contact-us" className="text-gray-600 hover:text-gray-900 text-sm">Contact</Link>
+                    <Link href="/about-us" className="text-gray-600 hover:text-gray-900 text-sm">About Us</Link>
+                    <Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 text-sm">Privacy Policy</Link>
+                    <Link href="/terms" className="text-gray-600 hover:text-gray-900 text-sm">Terms of Service</Link>
+                  </nav>
                 </div>
               </div>
             </footer>

@@ -106,5 +106,33 @@ export const games: Game[] = [
       difficulty: 'easy',
       estimatedTime: '5-15min'
     }
+  },
+  {
+    id: 'tetris',
+    name: 'Tetris Unblocked Games',
+    path: '/games/tetris',
+    description: 'Classic block-stacking puzzle game',
+    category: 'creative' as GameCategory,
+    tags: ['music', 'coloring', 'creative'],
+    thumbnailUrl: '/images/games/tetris.webp',
+    alt: 'tetris',
+    metadata: {
+      difficulty: 'easy',
+      estimatedTime: '5-15min'
+    }
+  },
+  {
+    id: 'winter-wolf',
+    name: 'Winter Wolf',
+    path: '/games/winter-wolf',
+    description: 'winter wolf game',
+    category: 'creative' as GameCategory,
+    tags: ['music', 'coloring', 'creative'],
+    thumbnailUrl: '/images/games/winter-wolf.webp',
+    alt: 'winter wolf',
+    metadata: {
+      difficulty: 'easy',
+      estimatedTime: '5-15min'
+    }
   }
 ];
