@@ -7,276 +7,372 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Sand Tetris - Free Sandtris Unblocked",
   description:
-    "Play Sand Tetris online - the ultimate unblocked game with sand physics! Free mobile-friendly Sandtris with new record challenges. No download needed, play instantly."
+    "Play Sand Tetris online - Free unblocked game with realistic sand physics. No download needed, start playing now!",
 };
 
 export default function Home() {
   // Get current game
-  const currentGame = games.find(game => game.path === "/");
+  const currentGame = games.find((game) => game.path === "/");
   // Get other games
-  const otherGames = games.filter(game => game.path !== "/");
+  const otherGames = games.filter((game) => game.path !== "/");
 
   return (
-      <main className="flex min-h-screen flex-col items-center justify-start bg-white text-gray-900">
-        <div className="container mx-auto px-4 max-w-7xl">
-          <div className="max-w-6xl mx-auto">
-            <h1 className="text-4xl font-bold text-center py-12 text-red-800 hidden md:block">
-              {currentGame?.name ?? "Sand Tetris"}
-            </h1>
+    <main className="flex min-h-screen flex-col items-center bg-white text-gray-900">
+      {/* Game Section - Adjusted padding */}
+      <div className="mx-auto w-full max-w-4xl px-4 py-4">
+        <div className="aspect-[4/3] max-h-[75vh] w-full overflow-hidden rounded-lg bg-black shadow-xl">
+          <iframe
+            src="https://www.crazygames.com/embed/sandtrix"
+            className="h-full w-full"
+            frameBorder="0"
+            allow="gamepad *;"
+            allowFullScreen
+          />
+        </div>
+      </div>
 
-          
+      {/* Content Section */}
+      <div className="w-full max-w-4xl px-4 pb-12">
+        {/* Main Title */}
+        <h1 className="mb-8 mt-12 text-4xl font-bold text-gray-900">
+          Sand Tetris
+        </h1>
 
-            {/* Mobile Game Preview */}
-            <div className="relative w-full h-[60dvh] min-h-[50dvh] overflow-hidden rounded-lg bg-black md:hidden">
-              <div className="h-1/2 relative overflow-hidden" style={{ filter: 'brightness(0.5)' }}>
-                <Image
-                  src={currentGame?.thumbnailUrl ?? "/placeholder-game.webp"}
-                  alt={currentGame?.alt ?? "Game Preview"}
-                  fill
-                  className="object-cover z-0 scale-[1.4]"
-                />
+        {/* How to Play Section - Right after title */}
+        <section className="mb-12">
+          <h2 className="mb-6 text-2xl font-semibold text-gray-800">
+            How to Play Sand Tetris
+          </h2>
+
+          <p className="mb-8 text-lg text-gray-700">
+            Sand Tetris combines classic Tetris gameplay with realistic sand
+            physics, creating a unique puzzle experience. Watch as blocks
+            transform into flowing sand particles, adding a new layer of
+            strategy to the beloved game.
+          </p>
+
+          {/* Getting Started Steps */}
+          <div className="mb-8 rounded-lg bg-gray-100 p-6">
+            <h3 className="mb-4 text-lg font-medium text-gray-900">
+              Getting Started
+            </h3>
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <span className="mt-1 flex h-5 w-5 items-center justify-center rounded-full bg-amber-100 text-amber-800">
+                  1
+                </span>
+                <p className="text-gray-700">
+                  Click "Play Now" and watch a brief 5-second advertisement
+                </p>
               </div>
-
-              <div className="h-1/2 bg-black">
-                <div className="flex flex-col items-center w-1/2 mx-auto -mt-[20%]">
-                  <Image
-                    src={currentGame?.thumbnailUrl ?? "/placeholder-game.webp"}
-                    width={300}
-                    height={169}
-                    className="w-full rounded-lg z-10"
-                    alt={currentGame?.alt ?? "Game Cover"}
-                  />
-
-                  <h2 className="text-2xl font-bold my-4 text-white">{currentGame?.name ?? "Sand Tetris"}</h2>
-
-                  <button className="w-full bg-gradient-to-r from-red-700 to-red-600 hover:from-red-800 hover:to-red-700 text-white font-bold py-3 px-6 rounded-3xl transition-colors">
-                    <span className="flex items-center justify-center gap-2">
-                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                      Play now
-                    </span>
-                  </button>
-
-                  <div className="flex justify-center mt-4 w-[80vw]">
-                    <p className="text-gray-200 text-sm text-center">
-                      Experience classic Tetris with realistic sand physics in this unique puzzle game
-                    </p>
-                  </div>
-                </div>
+              <div className="flex items-start gap-3">
+                <span className="mt-1 flex h-5 w-5 items-center justify-center rounded-full bg-amber-100 text-amber-800">
+                  2
+                </span>
+                <p className="text-gray-700">
+                  Look for the flashing "Press Enter" prompt and click it
+                </p>
               </div>
-            </div>
-
-            {/* Desktop Layout */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-              {/* Main Game Container */}
-              <div className="col-span-2 sm:col-span-2 md:col-span-3 lg:col-span-4 row-span-4 bg-white shadow-md rounded-lg hidden md:block">
-                <div className="relative w-full h-full" style={{ paddingBottom: '75%' }}>
-                  <iframe
-                    src="https://www.crazygames.com/embed/sandtrix"
-                    className="absolute inset-0 w-full h-full rounded-lg"
-                    frameBorder="0"
-                    allow="gamepad *;"
-                    allowFullScreen
-                  />
-                  <button className="absolute bottom-4 right-4 bg-black bg-opacity-60 text-white border-none py-2 px-4 rounded cursor-pointer text-sm transition duration-300 hover:bg-opacity-80 flex items-center">
-                    <i className="fas fa-expand mr-2"></i> Fullscreen
-                  </button>
-                </div>
-              </div>
-
-              {/* Side Game Cards */}
-              {otherGames.slice(0, 8).map((game, index) => (
-                <Link key={game.id} href={game.path} className="block group">
-                  <div className="bg-white rounded-lg border border-gray-200 hover:border-gray-300 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden">
-                    <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                      <Image
-                        src={game.thumbnailUrl ?? "/placeholder-game.webp"}
-                        alt={game.alt ?? `${game.name} - Game Preview`}
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                    <div className="p-3">
-                      <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300">
-                        {game.name}
-                      </h3>
-                      <p className="mt-1 text-sm text-gray-600 line-clamp-2">
-                        {game.description}
-                      </p>
-                    </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
-
-            {/* Bottom Game Cards */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-6">
-              {otherGames.slice(8).map((game) => (
-                <Link key={game.id} href={game.path} className="block group">
-                  <div className="bg-white rounded-lg border border-gray-200 hover:border-gray-300 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden">
-                    <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                      <Image
-                        src={game.thumbnailUrl ?? "/placeholder-game.webp"}
-                        alt={game.alt ?? `${game.name} - Game Preview`}
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                    <div className="p-3">
-                      <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300">
-                        {game.name}
-                      </h3>
-                      <p className="mt-1 text-sm text-gray-600 line-clamp-2">
-                        {game.description}
-                      </p>
-                    </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
-
-            {/* Game Information */}
-            <div className="prose prose-lg max-w-4xl mx-auto mt-12">
-              <h2 className="text-center text-2xl font-semibold text-gray-800">
-                How to Play Sand Tetris
-              </h2>
-
-              <p className="mx-auto mb-8 max-w-2xl text-center text-lg">
-                Sand Tetris combines classic Tetris gameplay with realistic sand
-                physics, creating a unique puzzle experience. Watch as blocks
-                transform into flowing sand particles, adding a new layer of
-                strategy to the beloved game.
-              </p>
-
-              <div className="mx-auto mb-8 w-full max-w-4xl overflow-hidden rounded-lg shadow-lg">
-                <iframe
-                  width="100%"
-                  height="315"
-                  src="https://www.youtube.com/embed/J59rsotSqb4?si=NBhob6ibUGnnaEwb"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                />
-              </div>
-
-              <div className="grid gap-8">
-                <section>
-                  <h3 className="mb-3 text-xl font-medium">Game Modes</h3>
-                  <ul className="space-y-2">
-                    <li>
-                      <strong>Classic Endless:</strong> Play until the sand fills
-                      the screen, with increasing speed as you progress.
-                    </li>
-                    <li>
-                      <strong>3-Minute Challenge:</strong> Race against time to
-                      achieve the highest possible score.
-                    </li>
-                    <li>
-                      <strong>Clear 40:</strong> Clear exactly 40 rows at your own
-                      pace - perfect for mastering the mechanics.
-                    </li>
-                  </ul>
-                </section>
-
-                <section>
-                  <h3 className="mb-3 text-xl font-medium">Controls</h3>
-                  <div className="grid gap-4 md:grid-cols-2">
-                    <div className="rounded bg-gray-50 p-4">
-                      <p className="mb-2 font-medium">On Desktop:</p>
-                      <ul className="list-disc space-y-1 pl-5">
-                        <li>↑ or W: Rotate blocks</li>
-                        <li>← → or A D: Move left/right</li>
-                        <li>↓ or S: Drop blocks faster</li>
-                        <li>P: Pause game</li>
-                      </ul>
-                    </div>
-                    <div className="rounded bg-gray-50 p-4">
-                      <p className="mb-2 font-medium">On Mobile:</p>
-                      <ul className="list-disc pl-5">
-                        <li>Tap screen to rotate</li>
-                        <li>Swipe left/right to move</li>
-                      </ul>
-                    </div>
-                  </div>
-                </section>
-
-                <section>
-                  <h3 className="mb-3 text-xl font-medium">Scoring Tips</h3>
-                  <ul className="list-disc space-y-2 pl-5">
-                    <li>
-                      Clear multiple rows quickly to build combos up to 10x
-                      multiplier
-                    </li>
-                    <li>Each sand particle cleared adds to your score</li>
-                    <li>Start with Easy mode to learn sand physics behavior</li>
-                    <li>
-                      Plan your moves carefully - sand flows differently than
-                      solid blocks
-                    </li>
-                  </ul>
-                </section>
-
-                <div className="rounded-lg bg-amber-50 p-4">
-                  <h3 className="mb-2 text-xl font-medium">
-                    Beginner’s Guide
-                  </h3>
-                  <p>
-                    New to Sand Tetris? Start with Easy mode where you’ll
-                    have full game space and normal drop speed. Watch how
-                    different shapes interact with the sand physics - some blocks
-                    may crumble while others create stable structures. As you
-                    improve, challenge yourself with Medium and Hard difficulties
-                    for faster gameplay and limited space.
-                  </p>
-                </div>
-
-                {/* SEO Content Section */}
-                <section className="mt-8 space-y-6">
-                  <h3 className="text-2xl font-semibold text-gray-800">
-                    Discover Sand Tetris: The Evolution of Classic Tetris
-                  </h3>
-                  
-                  <div className="space-y-4">
-                    <p>
-                      Sand Tetris (also known as Sandtris) brings a revolutionary twist to the classic block-stacking gameplay. This unique tetris sand game combines traditional mechanics with realistic physics, creating an entirely new puzzle experience. Play Sand Tetris online instantly - no downloads required, completely unblocked and accessible from any device.
-                    </p>
-
-                    <p>
-                      What makes this unblocked games tetris variant special is its innovative sand physics engine. Every move in Sand Tetris affects how the particles flow and settle, making each game session unique. Whether you're playing on desktop or trying Sand Tetris mobile, you'll discover new strategies as you compete to set new sand tetris records.
-                    </p>
-
-                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-medium mb-2">Why Players Choose Sand Tetris Unblocked</h4>
-                      <ul className="list-disc pl-5 space-y-2">
-                        <li>Instant access - play tetris sand game anywhere, anytime</li>
-                        <li>Mobile-optimized gameplay for on-the-go entertainment</li>
-                        <li>Realistic sand physics create unique challenges</li>
-                        <li>Global leaderboards to track your records</li>
-                        <li>Multiple game modes for endless entertainment</li>
-                      </ul>
-                    </div>
-                  </div>
-                </section>
-
-                {/* External Game Link */}
-                <div className="text-center mb-8 hidden md:block">
-                  <Link
-                    href="https://football-bros.net/"
-                    target="_blank"
-                    className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors"
-                  >
-                    Want to play Ball Game ? Try -&gt;
-                    
-                  </Link>
-                </div>
+              <div className="flex items-start gap-3">
+                <span className="mt-1 flex h-5 w-5 items-center justify-center rounded-full bg-amber-100 text-amber-800">
+                  3
+                </span>
+                <p className="text-gray-700">
+                  Click "Start" to begin your Sand Tetris adventure
+                </p>
               </div>
             </div>
           </div>
+
+          {/* Game Rules */}
+          <div className="rounded-lg bg-amber-50 p-6">
+            <h3 className="mb-4 text-lg font-medium text-gray-900">
+              Game Rules
+            </h3>
+            <div className="space-y-4 text-gray-700">
+              <p>
+                The key to success in Sand Tetris is strategic color placement:
+              </p>
+              <ul className="list-disc space-y-2 pl-5">
+                <li>Position same-colored sand blocks together</li>
+                <li>Keep green sand on the left side and right side</li>
+                <li>
+                  When matching colors connect, they'll disappear and add to
+                  your score
+                </li>
+                <li>Continue this process to achieve higher scores</li>
+                <li>
+                  Your scores are automatically saved to our server after each
+                  game
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Rest of the existing How to Play content (Controls, Game Modes, etc.) */}
+          <div className="mt-8 grid gap-8">
+            <section>
+              <h3 className="mb-3 text-xl font-medium text-gray-800">
+                Game Modes
+              </h3>
+              <div className="rounded-lg bg-gray-100 p-6">
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1 flex h-5 w-5 items-center justify-center rounded-full bg-amber-100 text-amber-800">
+                      1
+                    </span>
+                    <div>
+                      <strong className="text-gray-900">
+                        Classic Endless:
+                      </strong>
+                      <p className="text-gray-600">
+                        Play until the sand fills the screen, with increasing
+                        speed as you progress.
+                      </p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1 flex h-5 w-5 items-center justify-center rounded-full bg-amber-100 text-amber-800">
+                      2
+                    </span>
+                    <div>
+                      <strong className="text-gray-900">
+                        3-Minute Challenge:
+                      </strong>
+                      <p className="text-gray-600">
+                        Race against time to achieve the highest possible score.
+                      </p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1 flex h-5 w-5 items-center justify-center rounded-full bg-amber-100 text-amber-800">
+                      3
+                    </span>
+                    <div>
+                      <strong className="text-gray-900">Clear 40:</strong>
+                      <p className="text-gray-600">
+                        Clear exactly 40 rows at your own pace - perfect for
+                        mastering the mechanics.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+            <section>
+              <h3 className="mb-3 text-xl font-medium text-gray-800">
+                Controls
+              </h3>
+              <div className="grid gap-4 md:grid-cols-2">
+                <div className="rounded-lg bg-gray-100 p-6">
+                  <p className="mb-3 font-medium text-gray-900">On Desktop:</p>
+                  <ul className="space-y-2 text-gray-600">
+                    <li className="flex items-center gap-2">
+                      <kbd className="rounded bg-white px-2 py-1 text-sm shadow">
+                        ↑
+                      </kbd>
+                      <span>or</span>
+                      <kbd className="rounded bg-white px-2 py-1 text-sm shadow">
+                        W
+                      </kbd>
+                      <span>Rotate blocks</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <kbd className="rounded bg-white px-2 py-1 text-sm shadow">
+                        ←
+                      </kbd>
+                      <kbd className="rounded bg-white px-2 py-1 text-sm shadow">
+                        →
+                      </kbd>
+                      <span>or</span>
+                      <kbd className="rounded bg-white px-2 py-1 text-sm shadow">
+                        A
+                      </kbd>
+                      <kbd className="rounded bg-white px-2 py-1 text-sm shadow">
+                        D
+                      </kbd>
+                      <span>Move left/right</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <kbd className="rounded bg-white px-2 py-1 text-sm shadow">
+                        ↓
+                      </kbd>
+                      <span>or</span>
+                      <kbd className="rounded bg-white px-2 py-1 text-sm shadow">
+                        S
+                      </kbd>
+                      <span>Drop blocks faster</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="rounded-lg bg-gray-100 p-6">
+                  <p className="mb-3 font-medium text-gray-900">On Mobile:</p>
+                  <ul className="space-y-2 text-gray-600">
+                    <li>Tap screen to rotate</li>
+                    <li>Swipe left/right to move</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+            <section className="rounded-lg bg-amber-50 p-6">
+              <h3 className="mb-3 text-xl font-medium text-gray-800">
+                Pro Tips
+              </h3>
+              <ul className="space-y-2 text-gray-700">
+                <li>
+                  • Clear multiple rows quickly to build combos up to 10x
+                  multiplier
+                </li>
+                <li>• Each sand particle cleared adds to your score</li>
+                <li>• Start with Easy mode to learn sand physics behavior</li>
+                <li>
+                  • Plan your moves carefully - sand flows differently than
+                  solid blocks
+                </li>
+              </ul>
+            </section>
+          </div>
+        </section>
+
+        {/* YouTube Video */}
+        <div className="mb-12 overflow-hidden rounded-lg shadow-lg">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/J59rsotSqb4?si=NBhob6ibUGnnaEwb"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
         </div>
-      </main>
+
+        {/* SEO Content Sections */}
+        <div className="mt-12 space-y-8">
+          {/* Core Game Introduction */}
+          <section>
+            <h2 className="mb-4 text-2xl font-semibold text-gray-800">
+              Play Sand Tetris Online - Free Unblocked Game
+            </h2>
+            <p className="mb-4 text-gray-700">
+              Experience the unique blend of classic tetris and sand physics in
+              this innovative puzzle game. Our sand tetris game offers a fresh
+              take on the traditional block-stacking formula, with particles
+              that flow and behave like real sand.
+            </p>
+          </section>
+
+          {/* Game Variants */}
+          <section>
+            <h3 className="mb-3 text-xl font-medium text-gray-800">
+              Tetris Sand Game Variations
+            </h3>
+            <div className="grid gap-4 md:grid-cols-2">
+              <div className="rounded-lg bg-gray-100 p-6">
+                <h4 className="mb-2 font-medium text-gray-900">
+                  Classic Sand Tetris
+                </h4>
+                <p className="text-gray-600">
+                  The original sand tetris online experience with realistic
+                  physics and flowing particles. Perfect for both beginners and
+                  veterans.
+                </p>
+              </div>
+              <div className="rounded-lg bg-gray-100 p-6">
+                <h4 className="mb-2 font-medium text-gray-900">
+                  Sand Tetris Unblocked
+                </h4>
+                <p className="text-gray-600">
+                  Play anywhere, anytime with our unblocked version. No
+                  restrictions, just pure tetris sand gameplay at your
+                  fingertips.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {/* Records and Achievements */}
+          <section className="rounded-lg bg-amber-50 p-6">
+            <h3 className="mb-3 text-xl font-medium text-gray-800">
+              Sand Tetris Records and Challenges
+            </h3>
+            <div className="space-y-4">
+              <p className="text-gray-700">
+                Set new sand tetris records in various game modes. Challenge
+                yourself with:
+              </p>
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>High score challenges in Classic mode</li>
+                <li>Speed records in Time Attack</li>
+                <li>Precision achievements in Sand Control mode</li>
+              </ul>
+            </div>
+          </section>
+
+          {/* Mobile Gaming */}
+          <section>
+            <h3 className="mb-3 text-xl font-medium text-gray-800">
+              Play Tetris Sand Game on Mobile
+            </h3>
+            <p className="text-gray-700">
+              Our tetris sand unblocked version is fully optimized for mobile
+              devices. Enjoy the same fluid sand physics and engaging gameplay
+              on your smartphone or tablet. The touch controls are intuitive and
+              responsive, making it easy to play sand tetris online wherever you
+              go.
+            </p>
+          </section>
+        </div>
+
+        {/* Game Information */}
+        <div className="space-y-8">
+          {/* Bottom Section */}
+          <div className="mt-12 space-y-6 border-t border-gray-200 pt-8">
+            {/* Bookmark Tip */}
+            <div className="rounded-lg bg-blue-50 p-4 text-center">
+              <p className="flex items-center justify-center gap-2 text-blue-800">
+                <svg
+                  className="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"
+                  />
+                </svg>
+                <span>
+                  Love this game? Press
+                  <kbd className="mx-1 rounded bg-white px-2 py-0.5 text-sm shadow">
+                    Control
+                  </kbd>
+                  +
+                  <kbd className="mx-1 rounded bg-white px-2 py-0.5 text-sm shadow">
+                    D
+                  </kbd>
+                  to bookmark for quick access next time!
+                </span>
+              </p>
+            </div>
+
+            {/* External Game Link */}
+            <div className="text-center">
+              <Link
+                href="https://football-bros.net/"
+                target="_blank"
+                className="inline-flex items-center gap-2 text-blue-600 transition-colors hover:text-blue-800"
+              >
+                Want to play Ball Game ? Try -&gt;
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   );
 }
