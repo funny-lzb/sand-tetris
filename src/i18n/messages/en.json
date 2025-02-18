@@ -117,5 +117,171 @@
       "text": "Want to play Ball Game ? Try ->",
       "href": "https://football-bros.net/"
     }
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "about": "About Us"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "introduction": "We value your feedback and are here to help! Whether you have questions, suggestions, or just want to say hello, feel free to reach out to us.",
+    "emailText": "You can contact us at",
+    "emailAddress": "lzb129239@gmail.com",
+    "response": "We strive to respond to all inquiries within 24-48 hours during business days. For urgent matters, please ensure to include \"URGENT\" in your email subject line."
+  },
+  "about": {
+    "title": "About Sand Tetris",
+    "introduction": "Welcome to Sand Tetris (sand-tetris.online), your premier destination for engaging block-matching puzzle games. We specialize in creating innovative variations of the classic Tetris game, bringing you endless hours of entertainment right in your web browser - no downloads needed!",
+    
+    "whatWeOffer": {
+      "title": "What We Offer",
+      "description": "At Sand Tetris, we're passionate about creating engaging puzzle experiences. Our platform features:",
+      "features": [
+        "Classic Tetris with modern twists",
+        "Browser-based gameplay - play instantly",
+        "Responsive controls optimized for desktop",
+        "Regular updates with new game modes",
+        "Competitive leaderboards"
+      ]
+    },
+
+    "mission": {
+      "title": "Our Mission",
+      "description": "Our mission is to modernize classic block-matching puzzle games for today's web. We believe that great games should be instantly accessible to everyone, anywhere, without the need for downloads or installations. Through innovative gameplay mechanics and thoughtful design, we aim to create engaging experiences that challenge and entertain players of all skill levels."
+    },
+
+    "futurePlans": {
+      "title": "Future Plans",
+      "description": "We're constantly working to enhance the Sand Tetris experience. Our upcoming features include:",
+      "features": [
+        "New game modes and variations",
+        "Mobile-optimized controls",
+        "Global leaderboards",
+        "Achievement system",
+        "Multiplayer challenges"
+      ]
+    },
+
+    "contact": {
+      "title": "Contact Us",
+      "description": "We value your feedback and are always eager to hear from our players! Whether you have suggestions for improvements, found a bug, or just want to share your experience, feel free to reach out to us.",
+      "emailText": "You can contact us at:",
+      "emailAddress": "lzb129239@gmail.com",
+      "response": "We typically respond to all inquiries within 24-48 hours during business days. For urgent matters, please include \"URGENT\" in your email subject line."
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "introduction": "At {websiteName}, accessible from https://{websiteUrl}, we prioritize the privacy of our players. This Privacy Policy document outlines the types of information we collect and how we utilize it.",
+    "contact": "If you have any questions about our Privacy Policy, please contact us at {email}.",
+    
+    "information": {
+      "title": "Information We Collect",
+      "logFiles": {
+        "title": "Log Files",
+        "description": "{websiteName} follows standard procedures for using log files. These files log visitors when they access our website. The information collected by log files includes:",
+        "items": [
+          "Internet Protocol (IP) addresses",
+          "Browser type and version",
+          "Game scores and progress",
+          "Time and date of your visit",
+          "Game session information"
+        ],
+        "usage": "This information is used for improving game performance, analyzing trends, and enhancing the player experience."
+      }
+    },
+
+    "cookies": {
+      "title": "Cookies and Web Storage",
+      "description": "{websiteName} uses cookies and local storage to enhance your gaming experience. These are used to:",
+      "purposes": [
+        "Save your game progress",
+        "Remember your preferences",
+        "Maintain your session information",
+        "Track your high scores"
+      ]
+    },
+
+    "thirdParty": {
+      "title": "Third Party Services",
+      "description": "{websiteName} may use third-party services for analytics and performance monitoring. These services may collect anonymous usage data to help us improve our games. We recommend reviewing the privacy policies of these third-party services for more information."
+    },
+
+    "children": {
+      "title": "Children's Information",
+      "description": "While our games are enjoyed by players of all ages, {websiteName} does not knowingly collect personal information from children under 13. If you believe your child has provided personal information, please contact us immediately and we will promptly remove such information."
+    },
+
+    "updates": {
+      "title": "Updates to This Policy",
+      "description": "We may update this privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page. You are advised to review this Privacy Policy periodically for any changes."
+    },
+
+    "consent": {
+      "title": "Consent",
+      "description": "By using our website and games, you hereby consent to our Privacy Policy and agree to its terms."
+    },
+
+    "footer": {
+      "contact": "For any questions about this Privacy Policy, please contact us at {email}"
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "introduction": "Welcome to {websiteName}. By accessing and using this website, you accept and agree to be bound by the terms and provisions of this agreement.",
+    
+    "userAgreement": {
+      "title": "1. User Agreement",
+      "description": "By using {websiteName}, you agree to:",
+      "rules": [
+        "Play games fairly and not use any cheats or exploits",
+        "Not attempt to manipulate scores or leaderboards",
+        "Respect other players and maintain appropriate conduct",
+        "Not use automated systems or bots to play games",
+        "Not attempt to disrupt or interfere with the service"
+      ]
+    },
+
+    "intellectualProperty": {
+      "title": "2. Intellectual Property",
+      "description": "All games, content, and materials on {websiteName} are protected by intellectual property rights. You may not:",
+      "restrictions": [
+        "Copy or modify the games or website content",
+        "Use the materials for any commercial purpose",
+        "Attempt to decompile or reverse engineer any software",
+        "Remove any copyright or proprietary notices",
+        "Create derivative works based on our games"
+      ]
+    },
+
+    "gameRules": {
+      "title": "3. Game Rules and Fair Play",
+      "description": "We strive to maintain fair gameplay for all users. Any attempt to cheat, hack, or exploit game mechanics may result in immediate account suspension or termination. We reserve the right to reset scores or remove users from leaderboards if we suspect unfair play."
+    },
+
+    "availability": {
+      "title": "4. Service Availability",
+      "description": "While we strive to provide uninterrupted gaming service, we do not guarantee that the service will be available at all times. We may need to perform maintenance, updates, or face technical issues that could temporarily affect service availability."
+    },
+
+    "userContent": {
+      "title": "5. User Content",
+      "description": "If our service allows you to post comments or interact with other users, you are responsible for any content you post. We reserve the right to remove any content that violates these terms or is otherwise inappropriate."
+    },
+
+    "disclaimer": {
+      "title": "6. Disclaimer",
+      "description": "{websiteName} is provided \"as is\" without any warranties. We are not responsible for any loss of progress, scores, or other game-related data that may occur due to technical issues or service interruptions."
+    },
+
+    "modifications": {
+      "title": "7. Modifications to Terms",
+      "description": "We may update these terms of service at any time without notice. Continued use of the website after any modifications indicates your acceptance of the updated terms."
+    },
+
+    "footer": {
+      "contact": "For any questions about these Terms of Service, please contact us at {email}"
+    }
   }
 }
