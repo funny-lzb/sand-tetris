@@ -1,0 +1,274 @@
+{
+  "metadata": {
+    "title": "Sand Tetris - Jeu Tetris de Sable Gratuit et Sans Restriction",
+    "description": "Jouez à Sand Tetris en ligne - Jeu gratuit avec une physique réaliste du sable. Aucun téléchargement nécessaire, commencez à jouer maintenant !"
+  },
+  "home": {
+    "title": "Sand Tetris",
+    "subtitle": "Comment Jouer à Sand Tetris",
+    "introduction": "Sand Tetris combine le gameplay classique de Tetris avec une physique réaliste du sable, créant une expérience de puzzle unique. Regardez les blocs se transformer en particules de sable fluides, ajoutant une nouvelle dimension stratégique au jeu légendaire.",
+    
+    "gettingStarted": {
+      "title": "Pour Commencer",
+      "step_1": {
+        "text": "Cliquez sur \"Play Now\" et regardez une courte publicité de 5 secondes"
+      },
+      "step_2": {
+        "text": "Cherchez l'invite clignotante \"Press Enter\" et cliquez dessus"
+      },
+      "step_3": {
+        "text": "Cliquez sur \"Start\" pour commencer votre aventure Sand Tetris"
+      }
+    },
+
+    "gameRules": {
+      "title": "Règles du Jeu",
+      "intro": "La clé du succès dans Sand Tetris est le placement stratégique des couleurs :",
+      "rules": [
+        "Placez les blocs de sable de même couleur ensemble",
+        "Gardez le sable vert sur les côtés gauche et droit",
+        "Lorsque les couleurs correspondantes se connectent, elles disparaissent et ajoutent des points",
+        "Continuez ce processus pour obtenir des scores plus élevés",
+        "Vos scores sont automatiquement sauvegardés sur notre serveur après chaque partie"
+      ]
+    },
+
+    "gameModes": {
+      "title": "Modes de Jeu",
+      "classic": {
+        "title": "Classique Sans Fin",
+        "description": "Jouez jusqu'à ce que le sable remplisse l'écran, avec une vitesse croissante au fil de votre progression."
+      },
+      "timeChallenge": {
+        "title": "Défi 3 Minutes",
+        "description": "Faites la course contre le temps pour obtenir le meilleur score possible."
+      },
+      "clear40": {
+        "title": "Effacer 40",
+        "description": "Effacez exactement 40 lignes à votre rythme - parfait pour maîtriser la mécanique."
+      }
+    },
+
+    "controls": {
+      "title": "Contrôles",
+      "desktop": {
+        "title": "Sur Ordinateur",
+        "rotate": "Rotation des blocs",
+        "move": "Déplacement gauche/droite",
+        "drop": "Accélérer la chute"
+      },
+      "mobile": {
+        "title": "Sur Mobile",
+        "tap": "Tapez pour faire pivoter",
+        "swipe": "Glissez gauche/droite pour déplacer"
+      }
+    },
+
+    "proTips": {
+      "title": "Conseils Pro",
+      "tips": [
+        "Effacez rapidement plusieurs lignes pour construire des combos jusqu'à 10x",
+        "Chaque particule de sable effacée ajoute des points",
+        "Commencez en mode Facile pour apprendre la physique du sable",
+        "Planifiez vos mouvements avec soin - le sable coule différemment des blocs solides"
+      ]
+    },
+
+    "seoContent": {
+      "mainTitle": "Jouez à Sand Tetris en Ligne - Jeu Gratuit Sans Restriction",
+      "mainDescription": "Découvrez le mélange unique de tetris classique et de physique du sable dans ce jeu de puzzle innovant. Notre jeu sand tetris offre une nouvelle approche de la formule traditionnelle d'empilement de blocs, avec des particules qui coulent et se comportent comme du vrai sable.",
+      
+      "variations": {
+        "title": "Variations du Jeu Tetris de Sable",
+        "classic": {
+          "title": "Sand Tetris Classique",
+          "description": "L'expérience originale sand tetris en ligne avec une physique réaliste et des particules fluides. Parfait pour les débutants comme pour les vétérans."
+        },
+        "unblocked": {
+          "title": "Sand Tetris Sans Restriction",
+          "description": "Jouez n'importe où, n'importe quand avec notre version sans restriction. Aucune limitation, juste du pur gameplay tetris sable à portée de main."
+        }
+      },
+
+      "records": {
+        "title": "Records et Défis Sand Tetris",
+        "intro": "Établissez de nouveaux records sand tetris dans différents modes de jeu. Relevez les défis :",
+        "challenges": [
+          "Défis de high score en mode Classique",
+          "Records de vitesse en Contre-la-montre",
+          "Réalisations de précision en mode Contrôle du Sable"
+        ]
+      },
+
+      "mobile": {
+        "title": "Jouez au Tetris de Sable sur Mobile",
+        "description": "Notre version sand tetris sans restriction est entièrement optimisée pour les appareils mobiles. Profitez de la même physique fluide du sable et du gameplay captivant sur votre smartphone ou tablette. Les contrôles tactiles sont intuitifs et réactifs, rendant le jeu sand tetris en ligne facile où que vous soyez."
+      }
+    },
+
+    "bookmark": {
+      "text": "Vous aimez ce jeu ? Appuyez sur",
+      "key1": "Control",
+      "key2": "D",
+      "suffix": "pour mettre en favori et accéder rapidement la prochaine fois !"
+    },
+
+    "externalLink": {
+      "text": "Envie de jouer au Football ? Essayez ->",
+      "href": "https://football-bros.net/"
+    }
+  },
+  "footer": {
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "about": "À Propos"
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "introduction": "Nous apprécions vos retours et sommes là pour vous aider ! Que vous ayez des questions, des suggestions ou simplement envie de dire bonjour, n'hésitez pas à nous contacter.",
+    "emailText": "Vous pouvez nous contacter à",
+    "emailAddress": "lzb129239@gmail.com",
+    "response": "Nous nous efforçons de répondre à toutes les demandes dans un délai de 24 à 48 heures pendant les jours ouvrables. Pour les questions urgentes, veuillez inclure \"URGENT\" dans l'objet de votre email."
+  },
+  "about": {
+    "title": "À Propos de Sand Tetris",
+    "introduction": "Bienvenue sur Sand Tetris (sand-tetris.online), votre destination principale pour les jeux de puzzle à blocs captivants. Nous nous spécialisons dans la création de variations innovantes du jeu Tetris classique, vous offrant des heures de divertissement illimitées directement dans votre navigateur - sans téléchargement nécessaire !",
+    
+    "whatWeOffer": {
+      "title": "Ce Que Nous Proposons",
+      "description": "Chez Sand Tetris, nous sommes passionnés par la création d'expériences de puzzle engageantes. Notre plateforme propose :",
+      "features": [
+        "Tetris classique avec des touches modernes",
+        "Gameplay basé sur navigateur - jouez instantanément",
+        "Contrôles réactifs optimisés pour ordinateur",
+        "Mises à jour régulières avec de nouveaux modes de jeu",
+        "Classements compétitifs"
+      ]
+    },
+
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Notre mission est de moderniser les jeux de puzzle à blocs classiques pour le web d'aujourd'hui. Nous croyons que les grands jeux doivent être instantanément accessibles à tous, partout, sans nécessiter de téléchargements ou d'installations. Grâce à des mécaniques de jeu innovantes et une conception réfléchie, nous visons à créer des expériences engageantes qui défient et divertissent les joueurs de tous niveaux."
+    },
+
+    "futurePlans": {
+      "title": "Plans Futurs",
+      "description": "Nous travaillons constamment à améliorer l'expérience Sand Tetris. Nos fonctionnalités à venir incluent :",
+      "features": [
+        "Nouveaux modes de jeu et variations",
+        "Contrôles optimisés pour mobile",
+        "Classements mondiaux",
+        "Système de succès",
+        "Défis multijoueurs"
+      ]
+    },
+
+    "contact": {
+      "title": "Contactez-Nous",
+      "description": "Nous apprécions vos retours et sommes toujours désireux d'entendre nos joueurs ! Que vous ayez des suggestions d'amélioration, trouvé un bug ou simplement envie de partager votre expérience, n'hésitez pas à nous contacter.",
+      "emailText": "Vous pouvez nous contacter à :",
+      "emailAddress": "lzb129239@gmail.com",
+      "response": "Nous répondons généralement à toutes les demandes dans un délai de 24 à 48 heures pendant les jours ouvrables. Pour les questions urgentes, veuillez inclure \"URGENT\" dans l'objet de votre email."
+    }
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "introduction": "Sur {websiteName}, accessible depuis https://{websiteUrl}, nous accordons la priorité à la confidentialité de nos joueurs. Ce document de politique de confidentialité décrit les types d'informations que nous collectons et comment nous les utilisons.",
+    "contact": "Si vous avez des questions concernant notre politique de confidentialité, veuillez nous contacter à {email}.",
+    
+    "information": {
+      "title": "Informations Que Nous Collectons",
+      "logFiles": {
+        "title": "Fichiers Journaux",
+        "description": "{websiteName} suit les procédures standard d'utilisation des fichiers journaux. Ces fichiers enregistrent les visiteurs lorsqu'ils accèdent à notre site web. Les informations collectées par les fichiers journaux incluent :",
+        "items": [
+          "Adresses de protocole Internet (IP)",
+          "Type et version du navigateur",
+          "Scores et progression du jeu",
+          "Heure et date de votre visite",
+          "Informations de session de jeu"
+        ],
+        "usage": "Ces informations sont utilisées pour améliorer les performances du jeu, analyser les tendances et améliorer l'expérience du joueur."
+      }
+    },
+    "cookies": {
+      "title": "Cookies et Stockage Web",
+      "description": "{websiteName} utilise des cookies et le stockage local pour améliorer votre expérience de jeu. Ceux-ci sont utilisés pour :",
+      "purposes": [
+        "Sauvegarder votre progression de jeu",
+        "Mémoriser vos préférences",
+        "Maintenir vos informations de session",
+        "Suivre vos meilleurs scores"
+      ]
+    },
+    "thirdParty": {
+      "title": "Services Tiers",
+      "description": "{websiteName} peut utiliser des services tiers pour l'analyse et la surveillance des performances. Ces services peuvent collecter des données d'utilisation anonymes pour nous aider à améliorer nos jeux. Nous vous recommandons de consulter les politiques de confidentialité de ces services tiers pour plus d'informations."
+    },
+    "children": {
+      "title": "Informations des Enfants",
+      "description": "Bien que nos jeux soient appréciés par des joueurs de tous âges, {websiteName} ne collecte pas sciemment d'informations personnelles d'enfants de moins de 13 ans. Si vous pensez que votre enfant a fourni des informations personnelles, veuillez nous contacter immédiatement et nous supprimerons rapidement ces informations."
+    },
+    "updates": {
+      "title": "Mises à Jour de Cette Politique",
+      "description": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique de confidentialité sur cette page. Il vous est conseillé de consulter régulièrement cette politique de confidentialité pour tout changement."
+    },
+    "consent": {
+      "title": "Consentement",
+      "description": "En utilisant notre site web et nos jeux, vous consentez par la présente à notre politique de confidentialité et acceptez ses conditions."
+    },
+    "footer": {
+      "contact": "Pour toute question concernant cette politique de confidentialité, veuillez nous contacter à {email}"
+    }
+  },
+  "terms": {
+    "title": "Conditions d'Utilisation",
+    "introduction": "Bienvenue sur {websiteName}. En accédant et en utilisant ce site web, vous acceptez et consentez à être lié par les termes et dispositions de cet accord.",
+    
+    "userAgreement": {
+      "title": "1. Accord de l'Utilisateur",
+      "description": "En utilisant {websiteName}, vous acceptez de :",
+      "rules": [
+        "Jouer aux jeux équitablement et ne pas utiliser de triches ou d'exploits",
+        "Ne pas tenter de manipuler les scores ou les classements",
+        "Respecter les autres joueurs et maintenir une conduite appropriée",
+        "Ne pas utiliser de systèmes automatisés ou de bots pour jouer aux jeux",
+        "Ne pas tenter de perturber ou d'interférer avec le service"
+      ]
+    },
+    "intellectualProperty": {
+      "title": "2. Propriété Intellectuelle",
+      "description": "Tous les jeux, contenus et matériels sur {websiteName} sont protégés par des droits de propriété intellectuelle. Vous ne pouvez pas :",
+      "restrictions": [
+        "Copier ou modifier les jeux ou le contenu du site web",
+        "Utiliser le matériel à des fins commerciales",
+        "Tenter de décompiler ou de faire de l'ingénierie inverse sur tout logiciel",
+        "Supprimer les avis de droits d'auteur ou de propriété",
+        "Créer des œuvres dérivées basées sur nos jeux"
+      ]
+    },
+    "gameRules": {
+      "title": "3. Règles du Jeu et Jeu Équitable",
+      "description": "Nous nous efforçons de maintenir un gameplay équitable pour tous les utilisateurs. Toute tentative de triche, de piratage ou d'exploitation des mécaniques de jeu peut entraîner la suspension ou la résiliation immédiate du compte. Nous nous réservons le droit de réinitialiser les scores ou de retirer les utilisateurs des classements si nous soupçonnons un jeu déloyal."
+    },
+    "availability": {
+      "title": "4. Disponibilité du Service",
+      "description": "Bien que nous nous efforçons de fournir un service de jeu ininterrompu, nous ne garantissons pas que le service sera disponible en permanence. Nous pourrions avoir besoin d'effectuer des maintenances, des mises à jour ou faire face à des problèmes techniques qui pourraient temporairement affecter la disponibilité du service."
+    },
+    "userContent": {
+      "title": "5. Contenu Utilisateur",
+      "description": "Si notre service vous permet de publier des commentaires ou d'interagir avec d'autres utilisateurs, vous êtes responsable de tout contenu que vous publiez. Nous nous réservons le droit de supprimer tout contenu qui viole ces conditions ou est autrement inapproprié."
+    },
+    "disclaimer": {
+      "title": "6. Avertissement",
+      "description": "{websiteName} est fourni \"tel quel\" sans aucune garantie. Nous ne sommes pas responsables de toute perte de progression, de scores ou d'autres données liées au jeu qui pourrait survenir en raison de problèmes techniques ou d'interruptions de service."
+    },
+    "modifications": {
+      "title": "7. Modifications des Conditions",
+      "description": "Nous pouvons mettre à jour ces conditions d'utilisation à tout moment sans préavis. L'utilisation continue du site web après toute modification indique votre acceptation des conditions mises à jour."
+    },
+    "footer": {
+      "contact": "Pour toute question concernant ces conditions d'utilisation, veuillez nous contacter à {email}"
+    }
+  }
+} 

@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "title": "Sand Tetris - Gratis Sandtetris utan blockering",
+    "description": "Spela Sand Tetris online - Gratis ospärrat spel med realistisk sandfysik. Ingen nedladdning krävs, börja spela nu!"
+  },
+  "home": {
+    "title": "Sand Tetris",
+    "subtitle": "Hur man spelar Sand Tetris",
+    "introduction": "Sand Tetris kombinerar klassiskt Tetris-gameplay med realistisk sandfysik och skapar en unik pusselupplevelse. Se hur blocken förvandlas till flytande sandpartiklar och adderar ett nytt strategilager till det älskade spelet.",
+    
+    "gettingStarted": {
+      "title": "Kom igång",
+      "step_1": {
+        "text": "Klicka på \"Play Now\" och titta på en kort 5-sekunders annons"
+      },
+      "step_2": {
+        "text": "Leta efter den blinkande \"Press Enter\"-prompten och klicka på den"
+      },
+      "step_3": {
+        "text": "Klicka på \"Start\" för att börja ditt Sand Tetris-äventyr"
+      }
+    },
+
+    "gameRules": {
+      "title": "Spelregler",
+      "intro": "Nyckeln till framgång i Sand Tetris är strategisk färgplacering:",
+      "rules": [
+        "Placera sandblocken med samma färg tillsammans",
+        "Håll grön sand på vänster och höger sida",
+        "När matchande färger ansluter försvinner de och ger poäng",
+        "Fortsätt denna process för att uppnå högre poäng",
+        "Dina poäng sparas automatiskt på vår server efter varje spel"
+      ]
+    },
+
+    "gameModes": {
+      "title": "Spellägen",
+      "classic": {
+        "title": "Klassisk Ändlös",
+        "description": "Spela tills sanden fyller skärmen, med ökande hastighet när du fortskrider."
+      },
+      "timeChallenge": {
+        "title": "3-Minuters Utmaning",
+        "description": "Tävla mot tiden för att uppnå högsta möjliga poäng."
+      },
+      "clear40": {
+        "title": "Rensa 40",
+        "description": "Rensa exakt 40 rader i din egen takt - perfekt för att bemästra mekaniken."
+      }
+    },
+
+    "controls": {
+      "title": "Kontroller",
+      "desktop": {
+        "title": "På Dator",
+        "rotate": "Rotera block",
+        "move": "Flytta vänster/höger",
+        "drop": "Släpp block snabbare"
+      },
+      "mobile": {
+        "title": "På Mobil",
+        "tap": "Tryck på skärmen för att rotera",
+        "swipe": "Svep vänster/höger för att flytta"
+      }
+    },
+
+    "proTips": {
+      "title": "Proffstips",
+      "tips": [
+        "Rensa flera rader snabbt för att bygga kombos upp till 10x multiplikator",
+        "Varje rensad sandpartikel ger poäng",
+        "Börja med Lätt läge för att lära dig sandfysiken",
+        "Planera dina drag noggrant - sand flödar annorlunda än fasta block"
+      ]
+    },
+
+    "seoContent": {
+      "mainTitle": "Spela Sand Tetris Online - Gratis Ospärrat Spel",
+      "mainDescription": "Upplev den unika blandningen av klassisk tetris och sandfysik i detta innovativa pusselspel. Vårt sand tetris-spel erbjuder ett nytt perspektiv på den traditionella blockstaplingsformeln, med partiklar som flödar och beter sig som riktig sand.",
+      
+      "variations": {
+        "title": "Tetris Sand Spelvariationer",
+        "classic": {
+          "title": "Klassisk Sand Tetris",
+          "description": "Den ursprungliga sand tetris online-upplevelsen med realistisk fysik och flytande partiklar. Perfekt för både nybörjare och veteraner."
+        },
+        "unblocked": {
+          "title": "Sand Tetris Ospärrat",
+          "description": "Spela var som helst, när som helst med vår ospärrade version. Inga restriktioner, bara rent tetris sand-gameplay inom räckhåll."
+        }
+      },
+
+      "records": {
+        "title": "Sand Tetris Rekord och Utmaningar",
+        "intro": "Sätt nya sand tetris-rekord i olika spellägen. Utmana dig själv med:",
+        "challenges": [
+          "Högpoängsutmaningar i Klassiskt läge",
+          "Hastighetsrekord i Tidsattack",
+          "Precisionsprestation i Sandkontrolläge"
+        ]
+      },
+
+      "mobile": {
+        "title": "Spela Tetris Sand Spel på Mobilen",
+        "description": "Vår ospärrade tetris sand-version är helt optimerad för mobila enheter. Njut av samma flytande sandfysik och engagerande gameplay på din smartphone eller surfplatta. Touchkontrollerna är intuitiva och responsiva, vilket gör det enkelt att spela sand tetris online var du än är."
+      }
+    },
+
+    "bookmark": {
+      "text": "Gillar du spelet? Tryck",
+      "key1": "Control",
+      "key2": "D",
+      "suffix": "för att bokmärka för snabb åtkomst nästa gång!"
+    },
+
+    "externalLink": {
+      "text": "Vill du spela Bollspel? Prova ->",
+      "href": "https://football-bros.net/"
+    }
+  },
+  "footer": {
+    "privacy": "Integritetspolicy",
+    "terms": "Användarvillkor",
+    "about": "Om Oss"
+  },
+  "contact": {
+    "title": "Kontakta Oss",
+    "introduction": "Vi värdesätter din feedback och är här för att hjälpa! Oavsett om du har frågor, förslag eller bara vill säga hej, tveka inte att kontakta oss.",
+    "emailText": "Du kan kontakta oss på",
+    "emailAddress": "lzb129239@gmail.com",
+    "response": "Vi strävar efter att svara på alla förfrågningar inom 24-48 timmar under arbetsdagar. För brådskande ärenden, se till att inkludera \"BRÅDSKANDE\" i ämnesraden."
+  },
+  "about": {
+    "title": "Om Sand Tetris",
+    "introduction": "Välkommen till Sand Tetris (sand-tetris.online), din främsta destination för engagerande blockpusselspel. Vi specialiserar oss på att skapa innovativa variationer av det klassiska Tetris-spelet, och ger dig oändliga timmar av underhållning direkt i din webbläsare - ingen nedladdning krävs!",
+    
+    "whatWeOffer": {
+      "title": "Vad Vi Erbjuder",
+      "description": "På Sand Tetris är vi passionerade för att skapa engagerande pusselupplevelser. Vår plattform erbjuder:",
+      "features": [
+        "Klassisk Tetris med moderna inslag",
+        "Webbläsarbaserat gameplay - spela direkt",
+        "Responsiva kontroller optimerade för desktop",
+        "Regelbundna uppdateringar med nya spellägen",
+        "Tävlingsinriktade topplistor"
+      ]
+    },
+
+    "mission": {
+      "title": "Vårt Uppdrag",
+      "description": "Vårt uppdrag är att modernisera klassiska blockpusselspel för dagens webb. Vi tror att bra spel ska vara direkt tillgängliga för alla, var som helst, utan behov av nedladdningar eller installationer. Genom innovativ spelmekanik och genomtänkt design strävar vi efter att skapa engagerande upplevelser som utmanar och underhåller spelare på alla nivåer."
+    },
+
+    "futurePlans": {
+      "title": "Framtidsplaner",
+      "description": "Vi arbetar ständigt med att förbättra Sand Tetris-upplevelsen. Kommande funktioner inkluderar:",
+      "features": [
+        "Nya spellägen och variationer",
+        "Mobiloptimerade kontroller",
+        "Globala topplistor",
+        "Prestationssystem",
+        "Flerspelarutmaningar"
+      ]
+    },
+
+    "contact": {
+      "title": "Kontakta Oss",
+      "description": "Vi värdesätter din feedback och är alltid ivriga att höra från våra spelare! Oavsett om du har förslag på förbättringar, hittat en bugg eller bara vill dela din upplevelse, tveka inte att kontakta oss.",
+      "emailText": "Du kan kontakta oss på:",
+      "emailAddress": "lzb129239@gmail.com",
+      "response": "Vi svarar vanligtvis på alla förfrågningar inom 24-48 timmar under arbetsdagar. För brådskande ärenden, vänligen inkludera \"BRÅDSKANDE\" i ämnesraden."
+    }
+  },
+
+  "privacy": {
+    "title": "Integritetspolicy",
+    "introduction": "På {websiteName}, tillgänglig från https://{websiteUrl}, prioriterar vi våra spelares integritet. Detta integritetspolicydokument beskriver vilken typ av information vi samlar in och hur vi använder den.",
+    "contact": "Om du har några frågor om vår integritetspolicy, kontakta oss på {email}.",
+    
+    "information": {
+      "title": "Information Vi Samlar In",
+      "logFiles": {
+        "title": "Loggfiler",
+        "description": "{websiteName} följer standardprocedurer för användning av loggfiler. Dessa filer loggar besökare när de besöker vår webbplats. Informationen som samlas in av loggfiler inkluderar:",
+        "items": [
+          "Internet Protocol (IP) adresser",
+          "Webbläsartyp och version",
+          "Spelpoäng och framsteg",
+          "Tid och datum för ditt besök",
+          "Spelsessionsinformation"
+        ],
+        "usage": "Denna information används för att förbättra spelprestanda, analysera trender och förbättra spelarupplevelsen."
+      }
+    },
+
+    "cookies": {
+      "title": "Cookies och Webblagring",
+      "description": "{websiteName} använder cookies och lokal lagring för att förbättra din spelupplevelse. Dessa används för att:",
+      "purposes": [
+        "Spara dina spelframsteg",
+        "Komma ihåg dina inställningar",
+        "Upprätthålla din sessionsinformation",
+        "Spåra dina högsta poäng"
+      ]
+    },
+
+    "thirdParty": {
+      "title": "Tredjepartstjänster",
+      "description": "{websiteName} kan använda tredjepartstjänster för analys och prestandaövervakning. Dessa tjänster kan samla in anonym användningsdata för att hjälpa oss förbättra våra spel. Vi rekommenderar att du granskar integritetspolicyn för dessa tredjepartstjänster för mer information."
+    },
+
+    "children": {
+      "title": "Barns Information",
+      "description": "Medan våra spel uppskattas av spelare i alla åldrar, samlar {websiteName} inte medvetet in personlig information från barn under 13 år. Om du tror att ditt barn har lämnat personlig information, kontakta oss omedelbart så tar vi bort sådan information."
+    },
+
+    "updates": {
+      "title": "Uppdateringar av Denna Policy",
+      "description": "Vi kan uppdatera denna integritetspolicy från tid till annan. Vi meddelar dig om eventuella ändringar genom att publicera den nya integritetspolicyn på denna sida. Du rekommenderas att regelbundet granska denna integritetspolicy för eventuella ändringar."
+    },
+
+    "consent": {
+      "title": "Samtycke",
+      "description": "Genom att använda vår webbplats och spel samtycker du härmed till vår integritetspolicy och godkänner dess villkor."
+    },
+
+    "footer": {
+      "contact": "För frågor om denna integritetspolicy, kontakta oss på {email}"
+    }
+  },
+
+  "terms": {
+    "title": "Användarvillkor",
+    "introduction": "Välkommen till {websiteName}. Genom att besöka och använda denna webbplats accepterar och godkänner du att vara bunden av villkoren i detta avtal.",
+    
+    "userAgreement": {
+      "title": "1. Användaravtal",
+      "description": "Genom att använda {websiteName} godkänner du att:",
+      "rules": [
+        "Spela spel rättvist och inte använda några fusk eller exploateringar",
+        "Inte försöka manipulera poäng eller topplistor",
+        "Respektera andra spelare och upprätthålla lämpligt uppförande",
+        "Inte använda automatiserade system eller botar för att spela spel",
+        "Inte försöka störa eller ingripa i tjänsten"
+      ]
+    },
+
+    "intellectualProperty": {
+      "title": "2. Immateriella Rättigheter",
+      "description": "Alla spel, innehåll och material på {websiteName} skyddas av immateriella rättigheter. Du får inte:",
+      "restrictions": [
+        "Kopiera eller modifiera spelen eller webbplatsens innehåll",
+        "Använda materialet för kommersiella ändamål",
+        "Försöka dekompilera eller bakåtutveckla någon programvara",
+        "Ta bort några upphovsrätts- eller äganderättsmeddelanden",
+        "Skapa derivatverk baserade på våra spel"
+      ]
+    },
+
+    "gameRules": {
+      "title": "3. Spelregler och Rättvist Spel",
+      "description": "Vi strävar efter att upprätthålla rättvist gameplay för alla användare. Alla försök att fuska, hacka eller utnyttja spelmekaniken kan resultera i omedelbar kontosuspension eller uppsägning. Vi förbehåller oss rätten att återställa poäng eller ta bort användare från topplistor om vi misstänker orättvist spel."
+    },
+
+    "availability": {
+      "title": "4. Tjänstens Tillgänglighet",
+      "description": "Medan vi strävar efter att tillhandahålla oavbruten speltjänst, garanterar vi inte att tjänsten alltid kommer att vara tillgänglig. Vi kan behöva utföra underhåll, uppdateringar eller möta tekniska problem som tillfälligt kan påverka tjänstens tillgänglighet."
+    },
+
+    "userContent": {
+      "title": "5. Användarinnehåll",
+      "description": "Om vår tjänst tillåter dig att publicera kommentarer eller interagera med andra användare, är du ansvarig för allt innehåll du publicerar. Vi förbehåller oss rätten att ta bort innehåll som bryter mot dessa villkor eller på annat sätt är olämpligt."
+    },
+
+    "disclaimer": {
+      "title": "6. Ansvarsfriskrivning",
+      "description": "{websiteName} tillhandahålls \"i befintligt skick\" utan några garantier. Vi ansvarar inte för förlust av framsteg, poäng eller andra spelrelaterade data som kan uppstå på grund av tekniska problem eller tjänstavbrott."
+    },
+
+    "modifications": {
+      "title": "7. Ändringar av Villkor",
+      "description": "Vi kan uppdatera dessa användarvillkor när som helst utan föregående meddelande. Fortsatt användning av webbplatsen efter eventuella ändringar indikerar ditt godkännande av de uppdaterade villkoren."
+    },
+
+    "footer": {
+      "contact": "För frågor om dessa användarvillkor, kontakta oss på {email}"
+    }
+  }
+} 
