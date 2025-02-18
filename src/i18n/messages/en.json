@@ -7,6 +7,32 @@
     "title": "Sand Tetris",
     "subtitle": "How to Play Sand Tetris",
     "introduction": "Sand Tetris combines classic Tetris gameplay with realistic sand physics, creating a unique puzzle experience. Watch as blocks transform into flowing sand particles, adding a new layer of strategy to the beloved game.",
+    
+    "gettingStarted": {
+      "title": "Getting Started",
+      "step_1": {
+        "text": "Click \"Play Now\" and watch a brief 5-second advertisement"
+      },
+      "step_2": {
+        "text": "Look for the flashing \"Press Enter\" prompt and click it"
+      },
+      "step_3": {
+        "text": "Click \"Start\" to begin your Sand Tetris adventure"
+      }
+    },
+
+    "gameRules": {
+      "title": "Game Rules",
+      "intro": "The key to success in Sand Tetris is strategic color placement:",
+      "rules": [
+        "Position same-colored sand blocks together",
+        "Keep green sand on the left side and right side",
+        "When matching colors connect, they'll disappear and add to your score",
+        "Continue this process to achieve higher scores",
+        "Your scores are automatically saved to our server after each game"
+      ]
+    },
+
     "gameModes": {
       "title": "Game Modes",
       "classic": {
@@ -22,13 +48,14 @@
         "description": "Clear exactly 40 rows at your own pace - perfect for mastering the mechanics."
       }
     },
+
     "controls": {
       "title": "Controls",
       "desktop": {
         "title": "On Desktop",
         "rotate": "Rotate blocks",
         "move": "Move left/right",
-        "drop": "Drop faster"
+        "drop": "Drop blocks faster"
       },
       "mobile": {
         "title": "On Mobile",
@@ -36,18 +63,59 @@
         "swipe": "Swipe left/right to move"
       }
     },
+
     "proTips": {
       "title": "Pro Tips",
-      "tip1": "Clear multiple rows quickly to build combos up to 10x multiplier",
-      "tip2": "Each sand particle cleared adds to your score",
-      "tip3": "Start with Easy mode to learn sand physics behavior",
-      "tip4": "Plan your moves carefully - sand flows differently than solid blocks"
+      "tips": [
+        "Clear multiple rows quickly to build combos up to 10x multiplier",
+        "Each sand particle cleared adds to your score",
+        "Start with Easy mode to learn sand physics behavior",
+        "Plan your moves carefully - sand flows differently than solid blocks"
+      ]
     },
+
+    "seoContent": {
+      "mainTitle": "Play Sand Tetris Online - Free Unblocked Game",
+      "mainDescription": "Experience the unique blend of classic tetris and sand physics in this innovative puzzle game. Our sand tetris game offers a fresh take on the traditional block-stacking formula, with particles that flow and behave like real sand.",
+      
+      "variations": {
+        "title": "Tetris Sand Game Variations",
+        "classic": {
+          "title": "Classic Sand Tetris",
+          "description": "The original sand tetris online experience with realistic physics and flowing particles. Perfect for both beginners and veterans."
+        },
+        "unblocked": {
+          "title": "Sand Tetris Unblocked",
+          "description": "Play anywhere, anytime with our unblocked version. No restrictions, just pure tetris sand gameplay at your fingertips."
+        }
+      },
+
+      "records": {
+        "title": "Sand Tetris Records and Challenges",
+        "intro": "Set new sand tetris records in various game modes. Challenge yourself with:",
+        "challenges": [
+          "High score challenges in Classic mode",
+          "Speed records in Time Attack",
+          "Precision achievements in Sand Control mode"
+        ]
+      },
+
+      "mobile": {
+        "title": "Play Tetris Sand Game on Mobile",
+        "description": "Our tetris sand unblocked version is fully optimized for mobile devices. Enjoy the same fluid sand physics and engaging gameplay on your smartphone or tablet. The touch controls are intuitive and responsive, making it easy to play sand tetris online wherever you go."
+      }
+    },
+
     "bookmark": {
       "text": "Love this game? Press",
       "key1": "Control",
       "key2": "D",
       "suffix": "to bookmark for quick access next time!"
+    },
+
+    "externalLink": {
+      "text": "Want to play Ball Game ? Try ->",
+      "href": "https://football-bros.net/"
     }
   }
 }
