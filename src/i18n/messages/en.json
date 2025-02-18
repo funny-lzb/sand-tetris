@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "Sand Tetris - Free Sandtris Unblocked",
+    "description": "Play Sand Tetris online - Free unblocked game with realistic sand physics. No download needed, start playing now!"
+  },
+  "home": {
+    "title": "Sand Tetris",
+    "subtitle": "How to Play Sand Tetris",
+    "introduction": "Sand Tetris combines classic Tetris gameplay with realistic sand physics, creating a unique puzzle experience. Watch as blocks transform into flowing sand particles, adding a new layer of strategy to the beloved game.",
+    "gameModes": {
+      "title": "Game Modes",
+      "classic": {
+        "title": "Classic Endless",
+        "description": "Play until the sand fills the screen, with increasing speed as you progress."
+      },
+      "timeChallenge": {
+        "title": "3-Minute Challenge",
+        "description": "Race against time to achieve the highest possible score."
+      },
+      "clear40": {
+        "title": "Clear 40",
+        "description": "Clear exactly 40 rows at your own pace - perfect for mastering the mechanics."
+      }
+    },
+    "controls": {
+      "title": "Controls",
+      "desktop": {
+        "title": "On Desktop",
+        "rotate": "Rotate blocks",
+        "move": "Move left/right",
+        "drop": "Drop faster"
+      },
+      "mobile": {
+        "title": "On Mobile",
+        "tap": "Tap screen to rotate",
+        "swipe": "Swipe left/right to move"
+      }
+    },
+    "proTips": {
+      "title": "Pro Tips",
+      "tip1": "Clear multiple rows quickly to build combos up to 10x multiplier",
+      "tip2": "Each sand particle cleared adds to your score",
+      "tip3": "Start with Easy mode to learn sand physics behavior",
+      "tip4": "Plan your moves carefully - sand flows differently than solid blocks"
+    },
+    "bookmark": {
+      "text": "Love this game? Press",
+      "key1": "Control",
+      "key2": "D",
+      "suffix": "to bookmark for quick access next time!"
+    }
+  }
+}
