@@ -1,6 +1,5 @@
 "use client";
 
-import { useLocale } from "next-intl";
 import { useRouter, usePathname } from "next/navigation";
 import { useState } from "react";
 import { locales, type Locale } from "~/i18n/locale";
@@ -32,8 +31,11 @@ const languageMap: Record<Locale, { label: string; flag: string }> = {
   },
 };
 
-export default function LanguageSwitcher() {
-  const currentLocale = useLocale();
+export default function LanguageSwitcher({
+  locale: currentLocale,
+}: {
+  locale: string;
+}) {
   const router = useRouter();
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);

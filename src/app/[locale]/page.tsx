@@ -3,6 +3,7 @@ import Link from "next/link";
 // import { games } from "~/config/games";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import Comment from "../_components/Comment";
 
 export async function generateMetadata({
   params,
@@ -46,6 +47,7 @@ export default function Home() {
         <h1 className="mb-8 mt-12 text-4xl font-bold text-gray-900">
           {t("title")}
         </h1>
+        <Comment />
 
         {/* How to Play Section */}
         <section className="mb-12">
@@ -316,6 +318,20 @@ export default function Home() {
               >
                 {t("externalLink.text")}
               </Link>
+            </div>
+            <div className="mt-8 border-t border-gray-200 pt-8">
+              <h3 className="mb-4 text-center text-lg font-medium text-gray-900">
+                Recommended:
+              </h3>
+              <div className="flex justify-center gap-4">
+                <Link
+                  href="https://webp2png-converter.com/"
+                  target="_blank"
+                  className="text-blue-600 transition-colors hover:text-blue-800"
+                >
+                  WebP to PNG
+                </Link>
+              </div>
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ import Script from "next/script";
 import LanguageSwitcher from "./_components/LanguageSwitcher";
 import Footer from "./_components/Footer";
 import { NextIntlClientProvider, useMessages } from "next-intl";
-import { Link } from "~/i18n/routing";
+import { routing } from "~/i18n/routing";
 import { LocaleLink } from "./_components/LocaleLink";
 
 declare global {
@@ -48,7 +48,7 @@ export default function RootLayout({
   params: { locale: string };
 }) {
   const messages = useMessages();
-  const locale = params.locale;
+  const locale = params.locale || routing.defaultLocale;
 
   return (
     <html lang={locale} className="overflow-x-hidden">
@@ -84,12 +84,12 @@ export default function RootLayout({
                     >
                       Sand Tetris
                     </LocaleLink>
-                    <LanguageSwitcher />
+                    <LanguageSwitcher locale={locale} />
                   </div>
                 </nav>
               </header>
               <main className="flex-grow">{children}</main>
-              <Footer />
+              <Footer locale={locale} />
             </div>
           </NextIntlClientProvider>
         </TRPCReactProvider>

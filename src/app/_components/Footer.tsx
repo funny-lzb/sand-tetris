@@ -1,11 +1,10 @@
 "use client";
 
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import { LocaleLink } from "./LocaleLink";
 
-export default function Footer() {
+export default function Footer({ locale }: { locale: string }) {
   const t = useTranslations("footer");
-  const locale = useLocale();
 
   return (
     <footer className="border-t bg-gray-50">
