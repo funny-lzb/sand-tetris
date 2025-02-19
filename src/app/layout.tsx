@@ -84,7 +84,7 @@ export default function RootLayout({
                     >
                       Sand Tetris
                     </LocaleLink>
-                    <LanguageSwitcher locale={locale} />
+                    <LanguageSwitcher />
                   </div>
                 </nav>
               </header>
