@@ -2,53 +2,30 @@
 
 import { useLocale } from "next-intl";
 import { useRouter, usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { locales, type Locale } from "~/i18n/locale";
 
-const languageMap: Record<Locale, { label: string; flag: string }> = {
-  en: {
-    label: "English",
-    flag: "🇺🇸",
-  },
-  zh: {
-    label: "中文 (简体)",
-    flag: "🇨🇳",
-  },
-  de: {
-    label: "Deutsch",
-    flag: "🇩🇪",
-  },
-  sv: {
-    label: "Svenska",
-    flag: "🇸🇪",
-  },
-  fr: {
-    label: "Français",
-    flag: "🇫🇷",
-  },
-  es: {
-    label: "Español",
-    flag: "🇪🇸",
-  },
-};
-
 export default function LanguageSwitcher() {
-  const currentLocale = useLocale();
+  const [isOpen, setIsOpen] = useState(false);
+  const [currentLocale, setCurrentLocale] = useState<Locale>("en");
+  const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
-  const [isOpen, setIsOpen] = useState(false);
 
-  // 确保当前语言在支持的语言列表中，如果不在则默认使用英语
-  const locale = locales.includes(currentLocale as Locale)
-    ? (currentLocale as Locale)
-    : "en";
+  // 添加 useEffect 来同步当前路径的语言
+  useEffect(() => {
+    const pathLocale = pathname.split("/")[1] as Locale;
+    if (locales.includes(pathLocale)) {
+      setCurrentLocale(pathLocale);
+    }
+  }, [pathname]);
 
   const handleLocaleChange = (newLocale: Locale) => {
-    // 获取当前路径
-    const currentPath = pathname;
-    // 从当前路径中提取出除了语言之外的部分
-    const newPath = currentPath.replace(`/${locale}`, `/${newLocale}`);
+    const segments = pathname.split("/");
+    segments[1] = newLocale;
+    const newPath = segments.join("/");
 
+    setCurrentLocale(newLocale);
     router.push(newPath);
     setIsOpen(false);
   };
@@ -56,15 +33,14 @@ export default function LanguageSwitcher() {
   return (
     <div className="relative">
       <button
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => {
+          setIsOpen(!isOpen);
+        }}
         className="flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100"
       >
-        <span>{languageMap[locale].flag}</span>
-        <span>{languageMap[locale].label}</span>
+        <span>{currentLocale.toUpperCase()}</span>
         <svg
-          className={`h-4 w-4 transform text-gray-500 transition-transform ${
-            isOpen ? "rotate-180" : ""
-          }`}
+          className="h-4 w-4"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -72,7 +48,7 @@ export default function LanguageSwitcher() {
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
-            strokeWidth={2}
+            strokeWidth="2"
             d="M19 9l-7 7-7-7"
           />
         </svg>
@@ -84,16 +60,22 @@ export default function LanguageSwitcher() {
             {locales.map((code) => (
               <button
                 key={code}
-                onClick={() => handleLocaleChange(code)}
+                onClick={() => {
+                  handleLocaleChange(code);
+                }}
                 className={`flex w-full items-center gap-2 px-4 py-2 text-sm ${
-                  locale === code
+                  currentLocale === code
                     ? "bg-blue-50 text-blue-700"
                     : "text-gray-700 hover:bg-gray-50"
                 }`}
                 role="menuitem"
               >
-                <span>{languageMap[code].flag}</span>
-                <span>{languageMap[code].label}</span>
+                <span>{code.toUpperCase()}</span>
+                <span className="text-gray-500">
+                  {new Intl.DisplayNames([code], {
+                    type: "language",
+                  }).of(code)}
+                </span>
               </button>
             ))}
           </div>
