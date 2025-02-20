@@ -1,33 +1,18 @@
 "use client";
 
 import { useLocale } from "next-intl";
-import { useRouter, usePathname } from "next/navigation";
-import { useState, useEffect } from "react";
+import { usePathname, useRouter } from "~/i18n/routing";
+import { useState } from "react";
 import { locales, type Locale } from "~/i18n/locale";
 
 export default function LanguageSwitcher() {
   const [isOpen, setIsOpen] = useState(false);
-  const [currentLocale, setCurrentLocale] = useState<Locale>("en");
-  const locale = useLocale();
-  console.log("locale", locale);
+  const locale = useLocale() as Locale;
   const router = useRouter();
   const pathname = usePathname();
 
-  // 添加 useEffect 来同步当前路径的语言
-  useEffect(() => {
-    const pathLocale = pathname.split("/")[1] as Locale;
-    if (locales.includes(pathLocale)) {
-      setCurrentLocale(pathLocale);
-    }
-  }, [pathname]);
-
   const handleLocaleChange = (newLocale: Locale) => {
-    const segments = pathname.split("/");
-    segments[1] = newLocale;
-    const newPath = segments.join("/");
-
-    setCurrentLocale(newLocale);
-    router.push(newPath);
+    router.replace(pathname, { locale: newLocale });
     setIsOpen(false);
   };
 
@@ -39,7 +24,7 @@ export default function LanguageSwitcher() {
         }}
         className="flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100"
       >
-        <span>{currentLocale.toUpperCase()}</span>
+        <span>{locale.toUpperCase()}</span>
         <svg
           className="h-4 w-4"
           fill="none"
@@ -65,7 +50,7 @@ export default function LanguageSwitcher() {
                   handleLocaleChange(code);
                 }}
                 className={`flex w-full items-center gap-2 px-4 py-2 text-sm ${
-                  currentLocale === code
+                  locale === code
                     ? "bg-blue-50 text-blue-700"
                     : "text-gray-700 hover:bg-gray-50"
                 }`}
