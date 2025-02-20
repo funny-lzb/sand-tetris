@@ -5,6 +5,7 @@ import { LocaleLink } from "./LocaleLink";
 
 export default function Footer({ locale }: { locale: string }) {
   const t = useTranslations("footer");
+  console.log("locale", locale);
 
   return (
     <footer className="border-t bg-gray-50">

@@ -9,6 +9,7 @@ export default function LanguageSwitcher() {
   const [isOpen, setIsOpen] = useState(false);
   const [currentLocale, setCurrentLocale] = useState<Locale>("en");
   const locale = useLocale();
+  console.log("locale", locale);
   const router = useRouter();
   const pathname = usePathname();
 

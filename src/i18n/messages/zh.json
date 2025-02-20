@@ -119,9 +119,9 @@
     }
   },
   "footer": {
-    "privacy": "Datenschutz",
-    "terms": "Nutzungsbedingungen",
-    "about": "Über uns"
+    "privacy": "隐私协议",
+    "terms": "服务条款",
+    "about": "关于我们"
   },
   "contact": {
     "title": "联系我们",
