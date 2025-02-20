@@ -11,6 +11,11 @@ const intlMiddleware = createMiddleware({
 });
 
 export default function middleware(request: NextRequest) {
+  // 添加重定向逻辑：如果访问根路径，重定向到 /en
+  if (request.nextUrl.pathname === '/') {
+    return NextResponse.redirect(new URL('/en', request.url), 307);
+  }
+
   const requestHeaders = new Headers(request.headers);
   
   // 修改 header 名称，移除重复的前缀
