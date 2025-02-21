@@ -1,7 +1,7 @@
 import {getRequestConfig} from 'next-intl/server';
 import {routing} from './routing';
 
-type SupportedLocale = 'en' | 'zh' | 'de' | 'sv' | 'fr' | 'es';
+type SupportedLocale = 'en' | 'zh' | 'de' | 'sv' | 'fr' | 'es' | 'id' | 'ja' | 'nb' | 'pt' | 'th';
 
 interface TranslationMessages {
   [key: string]: string | TranslationMessages;

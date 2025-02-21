@@ -1,0 +1,245 @@
+{
+    "metadata": {
+      "title": "Sand Tetris - Gratis Sandtris Ublokkerte",
+      "description": "Spill Sand Tetris online - Gratis ublokkerte spill med realistisk sandfysikk. Ingen nedlasting nødvendig, begynn å spille nå!"
+    },
+    "home": {
+      "title": "Sand Tetris",
+      "subtitle": "Hvordan spille Sand Tetris",
+      "introduction": "Sand Tetris kombinerer klassisk Tetris-spill med realistisk sandfysikk, og skaper en unik puslespillopplevelse. Se blokkene forvandle seg til flytende sandpartikler, og legg til et nytt strategisk lag til det elskede spillet.",
+      
+      "gettingStarted": {
+        "title": "Kom i gang",
+        "step_1": {
+          "text": "Klikk \"Spill nå\" og se en kort 5-sekunders annonse"
+        },
+        "step_2": {
+          "text": "Se etter det blinkende \"Trykk Enter\"-promptet og klikk på det"
+        },
+        "step_3": {
+          "text": "Klikk \"Start\" for å begynne ditt Sand Tetris-eventyr"
+        }
+      },
+  
+      "gameRules": {
+        "title": "Spilleregler",
+        "intro": "Nøkkelen til suksess i Sand Tetris er strategisk fargeplassering:",
+        "rules": [
+          "Plasser sandblokker med samme farge sammen",
+          "Hold grønn sand på venstre og høyre side",
+          "Når matchende farger kobles sammen, vil de forsvinne og legge til poengene dine",
+          "Fortsett denne prosessen for å oppnå høyere poengsummer",
+          "Poengene dine lagres automatisk på serveren vår etter hvert spill"
+        ]
+      },
+  
+      "gameModes": {
+        "title": "Spillmoduser",
+        "classic": {
+          "title": "Klassisk Uendelig",
+          "description": "Spill til sanden fyller skjermen, med økende hastighet etter hvert som du går fremover."
+        },
+        "timeChallenge": {
+          "title": "3-Minutt Utfordring",
+          "description": "Konkurrer mot tiden for å oppnå høyest mulig poengsum."
+        },
+        "clear40": {
+          "title": "Rydd 40",
+          "description": "Rydd nøyaktig 40 rader i ditt eget tempo - perfekt for å mestre mekanikken."
+        }
+      },
+      "controls": {
+        "title": "Kontroller",
+        "desktop": {
+          "title": "På Desktop",
+          "rotate": "Roter blokker",
+          "move": "Flytt venstre/høyre",
+          "drop": "Slipp blokker raskere"
+        },
+        "mobile": {
+          "title": "På Mobil",
+          "tap": "Trykk på skjermen for å rotere",
+          "swipe": "Sveip venstre/høyre for å flytte"
+        }
+      },
+  
+      "proTips": {
+        "title": "Pro Tips",
+        "tips": [
+          "Rydd flere rader raskt for å bygge kombinasjoner med opptil 10x multiplikator",
+          "Hver sandpartikkel som ryddes legger til poengene dine",
+          "Start med lett modus for å lære sandfysikkens oppførsel",
+          "Planlegg bevegelsene dine nøye - sand flyter annerledes enn solide blokker"
+        ]
+      },
+  
+      "seoContent": {
+        "mainTitle": "Spill Sand Tetris Online - Gratis Ublokkerte Spill",
+        "mainDescription": "Opplev den unike blandingen av klassisk Tetris og sandfysikk i dette innovative puslespillet. Vårt Sand Tetris-spill tilbyr en ny vri på den tradisjonelle blokkstablingen, med partikler som flyter og oppfører seg som ekte sand.",
+        
+        "variations": {
+          "title": "Tetris Sand Spillvarianter",
+          "classic": {
+            "title": "Klassisk Sand Tetris",
+            "description": "Den originale Sand Tetris-opplevelsen på nettet med realistisk fysikk og flytende partikler. Perfekt for både nybegynnere og veteraner."
+          },
+          "unblocked": {
+            "title": "Sand Tetris Ublokkerte",
+            "description": "Spill hvor som helst, når som helst med vår ublokkerte versjon. Ingen restriksjoner, bare ren Tetris sandspill på fingertuppene dine."
+          }
+        },
+  
+        "records": {
+          "title": "Sand Tetris Rekorder og Utfordringer",
+          "intro": "Sett nye Sand Tetris-rekorder i ulike spillmoduser. Utfordre deg selv med:",
+          "challenges": [
+            "Høy poengutfordringer i klassisk modus",
+            "Hastighetsrekorder i tidsangrep",
+            "Presisjonsoppnåelser i Sand Kontroll-modus"
+          ]
+        },
+  
+        "mobile": {
+          "title": "Spill Tetris Sand Spill på Mobil",
+          "description": "Vår ublokkerte versjon av Tetris sand er fullt optimalisert for mobile enheter. Nyt den samme flytende sandfysikken og engasjerende spillopplevelsen på smarttelefonen eller nettbrettet ditt. Berøringskontrollene er intuitive og responsive, noe som gjør det enkelt å spille Sand Tetris online uansett hvor du er."
+        }
+      },
+  
+      "bookmark": {
+        "text": "Elsker dette spillet? Trykk",
+        "key1": "Control",
+        "key2": "D",
+        "suffix": "for å bokmerke for rask tilgang neste gang!"
+      },
+  
+      "externalLink": {
+        "text": "Vil du spille Ballspill? Prøv ->",
+        "href": "https://football-bros.net/"
+      }
+    },
+    "footer": {
+      "privacy": "Personvernerklæring",
+      "terms": "Vilkår for bruk",
+      "about": "Om oss"
+    },
+    "contact": {
+        "title": "Kontakt Oss",
+        "introduction": "Vi setter pris på tilbakemeldingen din og er her for å hjelpe! Hvis du har spørsmål, forslag eller bare vil si hei, ikke nøl med å kontakte oss.",
+        "emailText": "Du kan kontakte oss på",
+        "emailAddress": "lzb129239@gmail.com",
+        "response": "Vi svarer vanligvis på alle henvendelser innen 24-48 timer i løpet av arbeidsdager. For hastesaker, vennligst inkluder \"HASTIG\" i emnelinjen på e-posten din."
+      },
+      "privacy": {
+        "title": "Personvernerklæring",
+        "introduction": "Hos {websiteName}, tilgjengelig fra https://{websiteUrl}, prioriterer vi personvernet til våre spillere. Dette dokumentet om personvernerklæring beskriver hvilke typer informasjon vi samler inn og hvordan vi bruker den.",
+        "contact": "Hvis du har spørsmål om vår personvernerklæring, vennligst kontakt oss på {email}.",
+        
+        "information": {
+          "title": "Informasjon Vi Samler Inn",
+          "logFiles": {
+            "title": "Loggfiler",
+            "description": "{websiteName} følger standardprosedyrer for bruk av loggfiler. Disse filene logger besøkende når de får tilgang til nettstedet vårt. Informasjonen som samles inn av loggfiler inkluderer:",
+            "items": [
+              "Internettprotokoll (IP)-adresser",
+              "Nettlesertype og versjon",
+              "Spillpoeng og fremgang",
+              "Tid og dato for besøket ditt",
+              "Informasjon om spilløkt"
+            ],
+            "usage": "Denne informasjonen brukes til å forbedre spillytelsen, analysere trender og forbedre spilleropplevelsen."
+          }
+        },
+    
+        "cookies": {
+          "title": "Informasjonskapsler og Nettlagring",
+          "description": "{websiteName} bruker informasjonskapsler og lokal lagring for å forbedre spillopplevelsen din. Disse brukes til å:",
+          "purposes": [
+            "Lagre fremgangen din i spillet",
+            "Huske preferansene dine",
+            "Opprettholde informasjonen om økten din",
+            "Spor dine høyeste poengsummer"
+          ]
+        },
+    
+        "thirdParty": {
+          "title": "Tjenester fra Tredjeparter",
+          "description": "{websiteName} kan bruke tredjepartstjenester for analyse og ytelsesovervåking. Disse tjenestene kan samle inn anonym bruksdata for å hjelpe oss med å forbedre spillene våre. Vi anbefaler å gjennomgå personvernreglene til disse tredjepartstjenestene for mer informasjon."
+        },
+    
+        "children": {
+          "title": "Barnas Informasjon",
+          "description": "Selv om spillene våre nytes av spillere i alle aldre, samler ikke {websiteName} bevisst inn personlig informasjon fra barn under 13 år. Hvis du mener at barnet ditt har gitt personlig informasjon, vennligst kontakt oss umiddelbart, så fjerner vi slik informasjon raskt."
+        },
+    
+        "updates": {
+          "title": "Oppdateringer til Denne Politikken",
+          "description": "Vi kan oppdatere denne personvernerklæringen fra tid til annen. Vi vil varsle deg om eventuelle endringer ved å legge ut den nye personvernerklæringen på denne siden. Du anbefales å gjennomgå denne personvernerklæringen periodisk for eventuelle endringer."
+        },
+    
+        "consent": {
+          "title": "Samtykke",
+          "description": "Ved å bruke nettstedet vårt og spillene våre, gir du herved ditt samtykke til vår personvernerklæring og godtar dens vilkår."
+        },
+    
+        "footer": {
+          "contact": "For spørsmål om denne personvernerklæringen, vennligst kontakt oss på {email}"
+        }
+      },
+      "terms": {
+        "title": "Vilkår for Tjeneste",
+        "introduction": "Velkommen til {websiteName}. Ved å få tilgang til og bruke dette nettstedet, aksepterer du og samtykker til å være bundet av vilkårene og bestemmelsene i denne avtalen.",
+        
+        "userAgreement": {
+          "title": "1. Brukeravtale",
+          "description": "Ved å bruke {websiteName} samtykker du til å:",
+          "rules": [
+            "Spille spill rettferdig og ikke bruke juksemetoder eller utnyttelser",
+            "Ikke forsøke å manipulere poeng eller rangeringer",
+            "Respektere andre spillere og opprettholde passende oppførsel",
+            "Ikke bruke automatiserte systemer eller roboter for å spille spill",
+            "Ikke forsøke å forstyrre eller interferere med tjenesten"
+          ]
+        },
+    
+        "intellectualProperty": {
+          "title": "2. Immaterielle Rettigheter",
+          "description": "Alle spill, innhold og materialer på {websiteName} er beskyttet av immaterielle rettigheter. Du kan ikke:",
+          "restrictions": [
+            "Kopiere eller endre spillene eller nettstedets innhold",
+            "Bruke materialene til kommersielle formål",
+            "Forsøke å dekompilere eller reversere utvikle programvare",
+            "Fjerne eventuelle opphavsretts- eller eiendomsmerknader",
+            "Opprette avledede verk basert på spillene våre"
+          ]
+        },
+    
+        "gameRules": {
+          "title": "3. Spilleregler og Rettferdig Spill",
+          "description": "Vi streber etter å opprettholde rettferdig spill for alle brukere. Ethvert forsøk på å jukse, hacke eller utnytte spillmekanikker kan resultere i umiddelbar suspensjon eller oppsigelse av kontoen. Vi forbeholder oss retten til å nullstille poeng eller fjerne brukere fra rangeringer hvis vi mistenker urettferdig spill."
+        },
+    
+        "availability": {
+          "title": "4. Tjenestetilgjengelighet",
+          "description": "Selv om vi streber etter å gi en uavbrutt spilltjeneste, garanterer vi ikke at tjenesten alltid vil være tilgjengelig. Vi kan måtte utføre vedlikehold, oppdateringer eller møte tekniske problemer som midlertidig kan påvirke tjenestetilgjengeligheten."
+        },
+    
+        "userContent": {
+          "title": "5. Brukerinnhold",
+          "description": "Hvis tjenesten vår lar deg legge ut kommentarer eller samhandle med andre brukere, er du ansvarlig for innholdet du legger ut. Vi forbeholder oss retten til å fjerne innhold som bryter med disse vilkårene eller som på annen måte er upassende."
+        },
+    
+        "disclaimer": {
+          "title": "6. Ansvarsfraskrivelse",
+          "description": "{websiteName} tilbys \"som den er\" uten garantier. Vi er ikke ansvarlige for tap av fremgang, poeng eller annen spillrelatert data som kan oppstå på grunn av tekniske problemer eller tjenesteavbrudd."
+        },
+    
+        "modifications": {
+          "title": "7. Endringer i Vilkårene",
+          "description": "Vi kan oppdatere disse vilkårene for tjeneste når som helst uten forvarsel. Fortsatt bruk av nettstedet etter eventuelle endringer indikerer din aksept av de oppdaterte vilkårene."
+        },
+    
+        "footer": {
+          "contact": "For spørsmål om disse vilkårene for tjeneste, vennligst kontakt oss på {email}"
+        }
+      }
+    }

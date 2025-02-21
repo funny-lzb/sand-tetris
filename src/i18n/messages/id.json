@@ -1,0 +1,278 @@
+{
+    "metadata": {
+      "title": "Sand Tetris - Sandtris Gratis Tidak Terblokir",
+      "description": "Mainkan Sand Tetris secara online - Permainan gratis tidak terblokir dengan fisika pasir yang realistis. Tidak perlu mengunduh, mulai bermain sekarang!"
+    },
+    "home": {
+      "title": "Sand Tetris",
+      "subtitle": "Cara Bermain Sand Tetris",
+      "introduction": "Sand Tetris menggabungkan permainan Tetris klasik dengan fisika pasir yang realistis, menciptakan pengalaman teka-teki yang unik. Saksikan blok-blok berubah menjadi partikel pasir yang mengalir, menambahkan lapisan strategi baru pada permainan yang dicintai.",
+      
+      "gettingStarted": {
+        "title": "Memulai",
+        "step_1": {
+          "text": "Klik \"Mainkan Sekarang\" dan lihat iklan singkat selama 5 detik"
+        },
+        "step_2": {
+          "text": "Cari prompt \"Tekan Enter\" yang berkedip dan klik di atasnya"
+        },
+        "step_3": {
+          "text": "Klik \"Mulai\" untuk memulai petualangan Sand Tetris Anda"
+        }
+      },
+  
+      "gameRules": {
+        "title": "Aturan Permainan",
+        "intro": "Kunci untuk sukses di Sand Tetris adalah penempatan warna yang strategis:",
+        "rules": [
+          "Tempatkan blok pasir berwarna sama bersama-sama",
+          "Jaga pasir hijau di sisi kiri dan kanan",
+          "Ketika warna yang cocok terhubung, mereka akan menghilang dan menambah skor Anda",
+          "Lanjutkan proses ini untuk mencapai skor yang lebih tinggi",
+          "Skor Anda secara otomatis disimpan di server kami setelah setiap permainan"
+        ]
+      },
+  
+      "gameModes": {
+        "title": "Mode Permainan",
+        "classic": {
+          "title": "Klasik Tanpa Akhir",
+          "description": "Mainkan sampai pasir memenuhi layar, dengan kecepatan yang meningkat seiring kemajuan Anda."
+        },
+        "timeChallenge": {
+          "title": "Tantangan 3 Menit",
+          "description": "Berlomba melawan waktu untuk mencapai skor tertinggi."
+        },
+        "clear40": {
+          "title": "Bersihkan 40",
+          "description": "Bersihkan tepat 40 baris dengan kecepatan Anda sendiri - sempurna untuk menguasai mekanik."
+        }
+      },
+      "controls": {
+        "title": "Kontrol",
+        "desktop": {
+          "title": "Di Desktop",
+          "rotate": "Putar blok",
+          "move": "Gerakkan kiri/kanan",
+          "drop": "Jatuhkan blok lebih cepat"
+        },
+        "mobile": {
+          "title": "Di Mobile",
+          "tap": "Ketuk layar untuk memutar",
+          "swipe": "Geser kiri/kanan untuk bergerak"
+        }
+      },
+  
+      "proTips": {
+        "title": "Tips Profesional",
+        "tips": [
+          "Bersihkan beberapa baris dengan cepat untuk membangun kombinasi hingga 10x pengganda",
+          "Setiap partikel pasir yang dibersihkan menambah skor Anda",
+          "Mulailah dengan mode Mudah untuk mempelajari perilaku fisika pasir",
+          "Rencanakan gerakan Anda dengan hati-hati - pasir mengalir berbeda dari blok padat"
+        ]
+      },
+  
+      "seoContent": {
+        "mainTitle": "Mainkan Sand Tetris Online - Permainan Gratis Tidak Terblokir",
+        "mainDescription": "Rasakan perpaduan unik antara Tetris klasik dan fisika pasir dalam permainan teka-teki inovatif ini. Permainan sand tetris kami menawarkan pendekatan baru pada formula penumpukan blok tradisional, dengan partikel yang mengalir dan berperilaku seperti pasir asli.",
+        
+        "variations": {
+          "title": "Variasi Permainan Tetris Pasir",
+          "classic": {
+            "title": "Sand Tetris Klasik",
+            "description": "Pengalaman sand tetris online asli dengan fisika realistis dan partikel yang mengalir. Sempurna untuk pemula dan veteran."
+          },
+          "unblocked": {
+            "title": "Sand Tetris Tidak Terblokir",
+            "description": "Mainkan di mana saja, kapan saja dengan versi tidak terblokir kami. Tanpa batasan, hanya permainan pasir tetris murni di ujung jari Anda."
+          }
+        },
+  
+        "records": {
+          "title": "Rekor dan Tantangan Sand Tetris",
+          "intro": "Tetapkan rekor sand tetris baru di berbagai mode permainan. Tantang diri Anda dengan:",
+          "challenges": [
+            "Tantangan skor tinggi di mode Klasik",
+            "Rekor kecepatan di Time Attack",
+            "Prestasi presisi di mode Kontrol Pasir"
+          ]
+        },
+  
+        "mobile": {
+          "title": "Mainkan Permainan Tetris Pasir di Mobile",
+          "description": "Versi sand tetris tidak terblokir kami sepenuhnya dioptimalkan untuk perangkat mobile. Nikmati fisika pasir yang mengalir dan gameplay yang menarik di smartphone atau tablet Anda. Kontrol sentuhnya intuitif dan responsif, membuatnya mudah untuk bermain sand tetris online di mana saja."
+        }
+      },
+  
+      "bookmark": {
+        "text": "Suka permainan ini? Tekan",
+        "key1": "Control",
+        "key2": "D",
+        "suffix": "untuk menandai untuk akses cepat lain kali!"
+      },
+  
+      "externalLink": {
+        "text": "Ingin bermain Permainan Bola? Coba ->",
+        "href": "https://football-bros.net/"
+      }
+    },
+    "footer": {
+      "privacy": "Kebijakan Privasi",
+      "terms": "Syarat Layanan",
+      "about": "Tentang Kami"
+    },
+    "contact": {
+        "title": "Hubungi Kami",
+        "introduction": "Kami menghargai umpan balik Anda dan siap membantu! Apakah Anda memiliki pertanyaan, saran, atau hanya ingin menyapa, jangan ragu untuk menghubungi kami.",
+        "emailText": "Anda dapat menghubungi kami di",
+        "emailAddress": "lzb129239@gmail.com",
+        "response": "Kami berusaha untuk merespons semua pertanyaan dalam waktu 24-48 jam pada hari kerja. Untuk masalah mendesak, harap sertakan \"URGENT\" di baris subjek email Anda."
+      },
+      "about": {
+        "title": "Tentang Sand Tetris",
+        "introduction": "Selamat datang di Sand Tetris (sand-tetris.online), tujuan utama Anda untuk permainan teka-teki mencocokkan blok yang menarik. Kami mengkhususkan diri dalam menciptakan variasi inovatif dari permainan Tetris klasik, memberikan Anda jam hiburan tanpa henti langsung di browser web Anda - tanpa perlu mengunduh!",
+        
+        "whatWeOffer": {
+          "title": "Apa yang Kami Tawarkan",
+          "description": "Di Sand Tetris, kami bersemangat untuk menciptakan pengalaman teka-teki yang menarik. Platform kami menampilkan:",
+          "features": [
+            "Tetris klasik dengan variasi modern",
+            "Permainan langsung melalui browser - mainkan sekarang juga",
+            "Kontrol yang responsif untuk desktop",
+            "Pembaruan rutin dengan mode permainan baru",
+            "Papan peringkat yang kompetitif"
+          ]
+        },
+    
+        "mission": {
+          "title": "Misi Kami",
+          "description": "Misi kami adalah memodernisasi permainan teka-teki mencocokkan blok klasik untuk web saat ini. Kami percaya bahwa permainan yang hebat harus dapat diakses secara instan oleh semua orang, di mana saja, tanpa perlu mengunduh atau menginstal. Melalui mekanika permainan yang inovatif dan desain yang dipikirkan dengan baik, kami bertujuan untuk menciptakan pengalaman yang menarik yang menantang dan menghibur pemain dari semua tingkat keterampilan."
+        },
+    
+        "futurePlans": {
+          "title": "Rencana Masa Depan",
+          "description": "Kami terus bekerja untuk meningkatkan pengalaman Sand Tetris. Fitur-fitur yang akan datang termasuk:",
+          "features": [
+            "Mode permainan dan variasi baru",
+            "Kontrol yang dioptimalkan untuk mobile",
+            "Papan peringkat global",
+            "Sistem pencapaian",
+            "Tantangan multiplayer"
+          ]
+        }
+      },
+      "privacy": {
+        "title": "Kebijakan Privasi",
+        "introduction": "Di {websiteName}, yang dapat diakses dari https://{websiteUrl}, kami memprioritaskan privasi pemain kami. Dokumen Kebijakan Privasi ini menjelaskan jenis informasi yang kami kumpulkan dan bagaimana kami menggunakannya.",
+        "contact": "Jika Anda memiliki pertanyaan tentang Kebijakan Privasi kami, silakan hubungi kami di {email}.",
+        
+        "information": {
+          "title": "Informasi yang Kami Kumpulkan",
+          "logFiles": {
+            "title": "File Log",
+            "description": "{websiteName} mengikuti prosedur standar untuk menggunakan file log. File-file ini mencatat pengunjung saat mereka mengakses situs web kami. Informasi yang dikumpulkan oleh file log mencakup:",
+            "items": [
+              "Alamat Protokol Internet (IP)",
+              "Jenis dan versi browser",
+              "Skor permainan dan kemajuan",
+              "Waktu dan tanggal kunjungan Anda",
+              "Informasi sesi permainan"
+            ],
+            "usage": "Informasi ini digunakan untuk meningkatkan kinerja permainan, menganalisis tren, dan meningkatkan pengalaman pemain."
+          }
+        },
+    
+        "cookies": {
+          "title": "Cookies dan Penyimpanan Web",
+          "description": "{websiteName} menggunakan cookies dan penyimpanan lokal untuk meningkatkan pengalaman bermain Anda. Ini digunakan untuk:",
+          "purposes": [
+            "Menyimpan kemajuan permainan Anda",
+            "Mengingat preferensi Anda",
+            "Mempertahankan informasi sesi Anda",
+            "Melacak skor tertinggi Anda"
+          ]
+        },
+    
+        "thirdParty": {
+          "title": "Layanan Pihak Ketiga",
+          "description": "{websiteName} dapat menggunakan layanan pihak ketiga untuk analisis dan pemantauan kinerja. Layanan ini dapat mengumpulkan data penggunaan anonim untuk membantu kami meningkatkan permainan kami. Kami merekomendasikan untuk meninjau kebijakan privasi dari layanan pihak ketiga ini untuk informasi lebih lanjut."
+        },
+    
+        "children": {
+          "title": "Informasi Anak-Anak",
+          "description": "Meskipun permainan kami dinikmati oleh pemain dari segala usia, {websiteName} tidak secara sadar mengumpulkan informasi pribadi dari anak-anak di bawah 13 tahun. Jika Anda percaya anak Anda telah memberikan informasi pribadi, harap hubungi kami segera dan kami akan segera menghapus informasi tersebut."
+        },
+    
+        "updates": {
+          "title": "Pembaruan Kebijakan Ini",
+          "description": "Kami dapat memperbarui kebijakan privasi ini dari waktu ke waktu. Kami akan memberi tahu Anda tentang perubahan apa pun dengan memposting kebijakan privasi baru di halaman ini. Anda disarankan untuk meninjau Kebijakan Privasi ini secara berkala untuk setiap perubahan."
+        },
+    
+        "consent": {
+          "title": "Persetujuan",
+          "description": "Dengan menggunakan situs web dan permainan kami, Anda dengan ini menyetujui Kebijakan Privasi kami dan setuju dengan syarat-syaratnya."
+        },
+    
+        "footer": {
+          "contact": "Untuk pertanyaan tentang Kebijakan Privasi ini, silakan hubungi kami di {email}"
+        }
+      },
+      "terms": {
+        "title": "Syarat Layanan",
+        "introduction": "Selamat datang di {websiteName}. Dengan mengakses dan menggunakan situs web ini, Anda menerima dan setuju untuk terikat oleh syarat dan ketentuan dari perjanjian ini.",
+        
+        "userAgreement": {
+          "title": "1. Perjanjian Pengguna",
+          "description": "Dengan menggunakan {websiteName}, Anda setuju untuk:",
+          "rules": [
+            "Bermain game secara adil dan tidak menggunakan kecurangan atau eksploitasi",
+            "Tidak mencoba memanipulasi skor atau papan peringkat",
+            "Menghormati pemain lain dan menjaga perilaku yang sesuai",
+            "Tidak menggunakan sistem otomatis atau bot untuk bermain game",
+            "Tidak mencoba mengganggu atau mengintervensi layanan"
+          ]
+        },
+    
+        "intellectualProperty": {
+          "title": "2. Hak Kekayaan Intelektual",
+          "description": "Semua permainan, konten, dan materi di {websiteName} dilindungi oleh hak kekayaan intelektual. Anda tidak boleh:",
+          "restrictions": [
+            "Menyalin atau memodifikasi permainan atau konten situs web",
+            "Menggunakan materi untuk tujuan komersial",
+            "Mencoba mendekompilasi atau merekayasa ulang perangkat lunak",
+            "Menghapus pemberitahuan hak cipta atau kepemilikan",
+            "Membuat karya turunan berdasarkan permainan kami"
+          ]
+        },
+    
+        "gameRules": {
+          "title": "3. Aturan Permainan dan Permainan yang Adil",
+          "description": "Kami berusaha untuk menjaga permainan yang adil bagi semua pengguna. Setiap upaya untuk curang, meretas, atau mengeksploitasi mekanika permainan dapat mengakibatkan penangguhan atau pemutusan akun secara langsung. Kami berhak untuk mengatur ulang skor atau menghapus pengguna dari papan peringkat jika kami mencurigai permainan yang tidak adil."
+        },
+    
+        "availability": {
+          "title": "4. Ketersediaan Layanan",
+          "description": "Meskipun kami berusaha untuk memberikan layanan permainan yang tidak terputus, kami tidak menjamin bahwa layanan akan tersedia setiap saat. Kami mungkin perlu melakukan pemeliharaan, pembaruan, atau menghadapi masalah teknis yang dapat mempengaruhi ketersediaan layanan secara sementara."
+        },
+    
+        "userContent": {
+          "title": "5. Konten Pengguna",
+          "description": "Jika layanan kami memungkinkan Anda untuk memposting komentar atau berinteraksi dengan pengguna lain, Anda bertanggung jawab atas konten yang Anda posting. Kami berhak untuk menghapus konten yang melanggar syarat ini atau yang tidak pantas."
+        },
+    
+        "disclaimer": {
+          "title": "6. Penafian",
+          "description": "{websiteName} disediakan \"apa adanya\" tanpa jaminan. Kami tidak bertanggung jawab atas kehilangan kemajuan, skor, atau data terkait permainan lainnya yang mungkin terjadi akibat masalah teknis atau gangguan layanan."
+        },
+    
+        "modifications": {
+          "title": "7. Modifikasi Syarat",
+          "description": "Kami dapat memperbarui syarat layanan ini kapan saja tanpa pemberitahuan. Penggunaan situs web yang berkelanjutan setelah modifikasi menunjukkan penerimaan Anda terhadap syarat yang diperbarui."
+        },
+    
+        "footer": {
+          "contact": "Untuk pertanyaan tentang Syarat Layanan ini, silakan hubungi kami di {email}"
+        }
+      }
+    }

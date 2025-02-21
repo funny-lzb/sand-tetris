@@ -49,6 +49,6 @@ export const config = {
     // 匹配所有路径
     "/((?!api|_next|_vercel|.*\\..*).*)",
     // 匹配所有非英语的语言路径
-    "/(zh|de|sv|fr|es)/:path*"
+    "/(zh|de|sv|fr|es|id|ja|nb|pt|th)/:path*"
   ],
 };

@@ -34,6 +34,11 @@ export async function generateMetadata(): Promise<Metadata> {
     sv: "sv-SE",
     fr: "fr-FR",
     es: "es-ES",
+    id: "id-ID",
+    ja: "ja-JP",
+    nb: "nb-NO",
+    pt: "pt-BR",
+    th: "th-TH",
   } as const;
 
   type HrefLangCode = (typeof localeMap)[keyof typeof localeMap];
