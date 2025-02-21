@@ -23,7 +23,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers();
-  const domain = process.env.WEBSITE_URL;
+  const domain = process.env.NEXT_PUBLIC_WEBSITE_URL;
   let pathname = headersList.get("x-middleware-request-x-pathname") ?? "";
   pathname = pathname === "/" ? "" : pathname;
 
@@ -47,7 +47,11 @@ export async function generateMetadata(): Promise<Metadata> {
     (acc, lang) => {
       if (lang in localeMap) {
         const pathWithoutLocale = pathname.replace(/^\/[a-z]{2}(?=\/|$)/, "");
-        acc[localeMap[lang]] = `${domain}/${lang}${pathWithoutLocale}`;
+        // 如果语言是 'en'，则不在路径中添加 'en'
+        acc[localeMap[lang]] =
+          lang === "en"
+            ? `${domain}${pathWithoutLocale}` // 不带 'en' 前缀
+            : `${domain}/${lang}${pathWithoutLocale}`; // 带语言前缀
       }
       return acc;
     },
@@ -79,7 +83,6 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: `${domain}${pathname}`,
       languages: {
         ...languageAlternates,
-        "x-default": `${domain}/en${pathname.replace(/^\/[a-z]{2}(?=\/|$)/, "")}`,
       },
     },
   };

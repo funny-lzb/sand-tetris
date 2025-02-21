@@ -7,6 +7,6 @@ type Props = Omit<ComponentProps<typeof Link>, "locale" | "href"> & {
 };
 
 export function LocaleLink({ locale, href, ...rest }: Props) {
-  const newHref = `/${locale}${href}`;
+  const newHref = locale === "en" ? href : `/${locale}${href}`;
   return <Link href={newHref} {...rest} />;
 }
