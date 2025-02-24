@@ -92,6 +92,7 @@ export default function PrivacyPolicy() {
           {t("footer.contact", { email: config.contactEmail })}
         </p>
       </footer>
+      <span id="ezoic-privacy-policy-embed"></span>
     </div>
   );
 }
