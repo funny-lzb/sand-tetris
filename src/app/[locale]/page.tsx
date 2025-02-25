@@ -331,7 +331,61 @@ export default function Home() {
                 >
                   WebP to PNG
                 </Link>
+                <Link
+                  href="https://basketballbros.net/"
+                  target="_blank"
+                  className="text-blue-600 transition-colors hover:text-blue-800"
+                >
+                  Basketball bros
+                </Link>
+                <Link
+                  href="https://football-bros.net/"
+                  target="_blank"
+                  className="text-blue-600 transition-colors hover:text-blue-800"
+                >
+                  Football bros
+                </Link>
               </div>
+              <span style={{ opacity: "0" }}>
+                <a href="https://link.zhihu.com/?target=https%3A%2F%2Fsand-tetris.online%2F">
+                  zhihu
+                </a>
+              </span>
+              <span style={{ opacity: "0" }}>
+                <a href="https://weibo.cn/sinaurl?u=https%3A%2F%2Fsand-tetris.online%2F">
+                  weibo
+                </a>
+              </span>
+              <span style={{ opacity: "0" }}>
+                <a href="https://www.douban.com/link2/?url=https%3A%2F%2Fsand-tetris.online%2F">
+                  douban
+                </a>
+              </span>
+              <span style={{ opacity: "0" }}>
+                <a href="https://m.sogou.com/tc?url=https%3A%2F%2Fsand-tetris.online%2F">
+                  sogou
+                </a>
+              </span>
+              <span style={{ opacity: "0" }}>
+                <a href="https://gitee.com/link?target=https%3A%2F%2Fsand-tetris.online%2F">
+                  gitee
+                </a>
+              </span>
+              <span style={{ opacity: "0" }}>
+                <a href="https://leetcode.cn/link?target=https%3A%2F%2Fsand-tetris.online%2F">
+                  leetcode
+                </a>
+              </span>
+              <span style={{ opacity: "0" }}>
+                <a href="https://google.urlshare.cn/umirror_url_check?url=https%3A%2F%2Fsand-tetris.online%2F">
+                  google
+                </a>
+              </span>
+              <span style={{ opacity: "0" }}>
+                <a href="https://shimo.im/outlink/black?url=https%3A%2F%2Fsand-tetris.online%2F">
+                  shimo
+                </a>
+              </span>
             </div>
           </div>
         </div>
