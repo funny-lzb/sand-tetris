@@ -319,7 +319,7 @@ export default function Home() {
                 {t("externalLink.text")}
               </Link>
             </div>
-            <div className="mt-8 border-t border-gray-200 pt-8">
+            {/* <div className="mt-8 border-t border-gray-200 pt-8">
               <h3 className="mb-4 text-center text-lg font-medium text-gray-900">
                 Recommended:
               </h3>
@@ -386,7 +386,7 @@ export default function Home() {
                   shimo
                 </a>
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
