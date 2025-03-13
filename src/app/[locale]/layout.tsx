@@ -102,22 +102,26 @@ export default async function RootLayout({
   return (
     <html lang={locale} className="overflow-x-hidden">
       <head>
-        <Script
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1206910636681979"
-          strategy="afterInteractive"
-        />
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-KXXGFCV7G7"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
+        {process.env.NODE_ENV === "production" && (
+          <>
+            <Script
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1206910636681979"
+              strategy="afterInteractive"
+            />
+            <Script
+              src="https://www.googletagmanager.com/gtag/js?id=G-KXXGFCV7G7"
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
             window.dataLayer = window.dataLayer ?? [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-KXXGFCV7G7');
           `}
-        </Script>
+            </Script>
+          </>
+        )}
       </head>
       <body className={`${inter.className} overflow-x-hidden`}>
         <TRPCReactProvider>
