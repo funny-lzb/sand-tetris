@@ -309,28 +309,10 @@ export default function Home() {
               </p>
             </div>
 
-            {/* External Game Link */}
-            <div className="text-center">
-              <Link
-                href={t("externalLink.href")}
-                target="_blank"
-                className="inline-flex items-center gap-2 text-blue-600 transition-colors hover:text-blue-800"
-              >
-                {t("externalLink.text")}
-              </Link>
-            </div>
-            {/* <div className="mt-8 border-t border-gray-200 pt-8">
-              <h3 className="mb-4 text-center text-lg font-medium text-gray-900">
-                Recommended:
-              </h3>
-              <div className="flex justify-center gap-4">
-                <Link
-                  href="https://webp2png-converter.com/"
-                  target="_blank"
-                  className="text-blue-600 transition-colors hover:text-blue-800"
-                >
-                  WebP to PNG
-                </Link>
+            {/* Friendly Links Section */}
+            <div className="flex flex-col items-center gap-4">
+              <h3 className="text-xl font-semibold">Friendly links</h3>
+              <div className="flex items-center gap-6">
                 <Link
                   href="https://basketballbros.net/"
                   target="_blank"
@@ -345,48 +327,15 @@ export default function Home() {
                 >
                   Football bros
                 </Link>
+                <Link
+                  href="https://narrow-one.net/"
+                  target="_blank"
+                  className="text-blue-600 transition-colors hover:text-blue-800"
+                >
+                  Narrow one
+                </Link>
               </div>
-              <span style={{ opacity: "0" }}>
-                <a href="https://link.zhihu.com/?target=https%3A%2F%2Fsand-tetris.online%2F">
-                  zhihu
-                </a>
-              </span>
-              <span style={{ opacity: "0" }}>
-                <a href="https://weibo.cn/sinaurl?u=https%3A%2F%2Fsand-tetris.online%2F">
-                  weibo
-                </a>
-              </span>
-              <span style={{ opacity: "0" }}>
-                <a href="https://www.douban.com/link2/?url=https%3A%2F%2Fsand-tetris.online%2F">
-                  douban
-                </a>
-              </span>
-              <span style={{ opacity: "0" }}>
-                <a href="https://m.sogou.com/tc?url=https%3A%2F%2Fsand-tetris.online%2F">
-                  sogou
-                </a>
-              </span>
-              <span style={{ opacity: "0" }}>
-                <a href="https://gitee.com/link?target=https%3A%2F%2Fsand-tetris.online%2F">
-                  gitee
-                </a>
-              </span>
-              <span style={{ opacity: "0" }}>
-                <a href="https://leetcode.cn/link?target=https%3A%2F%2Fsand-tetris.online%2F">
-                  leetcode
-                </a>
-              </span>
-              <span style={{ opacity: "0" }}>
-                <a href="https://google.urlshare.cn/umirror_url_check?url=https%3A%2F%2Fsand-tetris.online%2F">
-                  google
-                </a>
-              </span>
-              <span style={{ opacity: "0" }}>
-                <a href="https://shimo.im/outlink/black?url=https%3A%2F%2Fsand-tetris.online%2F">
-                  shimo
-                </a>
-              </span>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
