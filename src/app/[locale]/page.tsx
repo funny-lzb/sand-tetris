@@ -334,6 +334,20 @@ export default function Home() {
                 >
                   Narrow one
                 </Link>
+                <Link
+                  href="https://link.zhihu.com/?target=https%3A%2F%2Fsand-tetris.online"
+                  target="_blank"
+                  className="text-blue-600 transition-colors hover:text-blue-800"
+                >
+                  zhihu
+                </Link>
+                <Link
+                  href="https://weibo.cn/sinaurl?u=https%3A%2F%2Fsand-tetris.online"
+                  target="_blank"
+                  className="text-blue-600 transition-colors hover:text-blue-800"
+                >
+                  weibo
+                </Link>
               </div>
             </div>
           </div>
