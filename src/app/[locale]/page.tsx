@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import Comment from "../_components/Comment";
-import FullScreenIframe from "../_components/FullScreenIframe";
+import FullScreen from "../_components/FullScreen";
 
 export async function generateMetadata({
   params,
@@ -26,22 +26,7 @@ export default function Home() {
   const t = useTranslations("home");
   // const currentGame = games.find((game) => game.path === "/");
   // const otherGames = games.filter((game) => game.path !== "/");
-  const handleFullScreen = () => {
-    const iframe = document.querySelector("iframe");
-    if (iframe) {
-      if (!document.fullscreenElement) {
-        iframe.requestFullscreen().catch((err) => {
-          console.error(
-            `Error attempting to enable fullscreen: ${err.message}`,
-          );
-        });
-      } else {
-        document.exitFullscreen().catch((err) => {
-          console.error(`Error attempting to exit fullscreen: ${err.message}`);
-        });
-      }
-    }
-  };
+
   return (
     <main className="flex min-h-screen flex-col items-center bg-white text-gray-900">
       {/* Game Section */}
@@ -56,7 +41,7 @@ export default function Home() {
           />
         </div>
       </div> */}
-      <FullScreenIframe />
+      <FullScreen />
 
       {/* Content Section */}
       <div className="w-full max-w-4xl px-4 pb-12">
