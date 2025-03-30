@@ -350,6 +350,13 @@ export default function Home() {
                 >
                   weibo
                 </Link>
+                <Link
+                  href="https://ghiblimage.net"
+                  target="_blank"
+                  className="text-blue-600 transition-colors hover:text-blue-800"
+                >
+                  Ghibli Image
+                </Link>
               </div>
             </div>
           </div>
