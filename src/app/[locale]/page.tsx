@@ -357,6 +357,13 @@ export default function Home() {
                 >
                   Ghibli Image
                 </Link>
+                <Link
+                  href="https://doodle-baseball.io/"
+                  target="_blank"
+                  className="text-blue-600 transition-colors hover:text-blue-800"
+                >
+                  Doodle baseball
+                </Link>
               </div>
             </div>
           </div>
